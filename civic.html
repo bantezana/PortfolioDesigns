@@ -144,11 +144,36 @@
             <p>Instead of forcing residents to navigate city wide information, Civic starts with YOUR neighborhood. Everything is filtered by what matters to you based on where you live, work, or own property.</p>
 
             <div class="design-showcase" style="margin: 3rem 0; background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); padding: 3rem; border-radius: 20px; text-align: center;">
-                <h4 style="margin-bottom: 2rem; color: #1e40af;">Neighborhood Dashboard</h4>
-                <img src="images/civic-dashboard.png" 
-                     alt="Civic dashboard showing neighborhood map with activity feed" 
-                     style="width: 100%; max-width: 1200px; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.2);">
-                <p style="margin-top: 1.5rem; color: #64748b; font-size: 0.95rem;">The main dashboard shows an interactive map of your neighborhood with a real time activity feed. Colored pins represent different types of government activity: blue for meetings, green for approved projects, yellow for pending items, and red for reported issues.</p>
+                <h4 style="margin-bottom: 2rem; color: #1e40af;">Desktop Platform Views</h4>
+                <div style="display: flex; gap: 2rem; justify-content: center; align-items: flex-start; flex-wrap: wrap; margin-bottom: 2rem;">
+                    <div style="flex: 1; min-width: 400px; max-width: 600px;">
+                        <img src="images/Civicscreen5.png"
+                             alt="Civic dashboard showing neighborhood map with activity feed"
+                             style="width: 100%; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.2);">
+                        <p style="margin-top: 1rem; color: #64748b; font-size: 0.9rem; font-weight: 600;">Neighborhood Dashboard</p>
+                    </div>
+                    <div style="flex: 1; min-width: 400px; max-width: 600px;">
+                        <img src="images/Civicscreen7.png"
+                             alt="Additional dashboard view showing civic features"
+                             style="width: 100%; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.2);">
+                        <p style="margin-top: 1rem; color: #64748b; font-size: 0.9rem; font-weight: 600;">Activity Feed View</p>
+                    </div>
+                </div>
+                <div style="display: flex; gap: 2rem; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
+                    <div style="flex: 1; min-width: 400px; max-width: 600px;">
+                        <img src="images/Civicscreen8.png"
+                             alt="Civic platform interface"
+                             style="width: 100%; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.2);">
+                        <p style="margin-top: 1rem; color: #64748b; font-size: 0.9rem; font-weight: 600;">Project Listing</p>
+                    </div>
+                    <div style="flex: 1; min-width: 400px; max-width: 600px;">
+                        <img src="images/Civicscreen9.png"
+                             alt="Civic platform showing information architecture"
+                             style="width: 100%; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.2);">
+                        <p style="margin-top: 1rem; color: #64748b; font-size: 0.9rem; font-weight: 600;">Detailed Information View</p>
+                    </div>
+                </div>
+                <p style="margin-top: 1.5rem; color: #64748b; font-size: 0.95rem;">The desktop platform provides comprehensive views of neighborhood activity. The main dashboard shows an interactive map with colored pins representing different government activities (blue for meetings, green for approved projects, yellow for pending items, red for reported issues). Multiple view options let users browse projects, meetings, and civic information in formats that match their needs.</p>
             </div>
 
             <h3>Design Decisions</h3>
@@ -183,8 +208,8 @@
 
             <div class="design-showcase" style="margin: 3rem 0; background: white; padding: 3rem; border-radius: 20px; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
                 <h4 style="margin-bottom: 2rem; color: #1e40af;">Project Detail with Plain English</h4>
-                <img src="images/civic-project-detail.png" 
-                     alt="Project detail page showing plain English toggle and key information" 
+                <img src="images/Civicscreen6.png"
+                     alt="Project detail page showing plain English toggle and key information"
                      style="width: 100%; max-width: 1000px; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.15);">
                 <p style="margin-top: 1.5rem; color: #64748b; font-size: 0.95rem;">Each project page features a toggle between official legal language and plain English. The "Key Information" section breaks down complex proposals into digestible answers: What's being proposed, Why it matters, Who to contact, and Next steps.</p>
             </div>
@@ -221,15 +246,52 @@
             
             <p>Research showed that 78% of users would engage with local government from their phones—but existing sites were desktop-only or had broken mobile experiences. I designed mobile-first flows for the three most common civic actions.</p>
 
-            <h3>1. Report an Issue (Pothole, Streetlight, etc.)</h3>
-            <p>The most requested feature: a dead-simple way to report local problems. The multi-step flow uses progressive disclosure to keep each screen focused on one task.</p>
+            <h3>Mobile-First Action Flows</h3>
+            <p>The three most common civic actions were designed with mobile-first flows to make local government engagement accessible anywhere.</p>
 
             <div class="design-showcase" style="margin: 3rem 0; background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); padding: 3rem; border-radius: 20px; text-align: center;">
-                <h4 style="margin-bottom: 2rem; color: #1e40af;">Report Issue Flow - Location Selection</h4>
-                <img src="images/civic-report-issue.png" 
-                     alt="Mobile screen showing issue reporting with map location picker" 
-                     style="width: 100%; max-width: 400px; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.2);">
-                <p style="margin-top: 1.5rem; color: #64748b; font-size: 0.95rem;">Step 2 of the report flow focuses solely on location. Users can drop a pin on the map, use their current location, or type an address. The progress indicator (Step 2 of 4) sets clear expectations.</p>
+                <h4 style="margin-bottom: 2rem; color: #1e40af;">Mobile User Flows</h4>
+                <div style="display: flex; gap: 1.5rem; justify-content: center; align-items: flex-start; flex-wrap: wrap; margin-bottom: 1.5rem;">
+                    <div style="flex: 1; min-width: 250px; max-width: 350px;">
+                        <img src="images/CivicMobilescreen3.png"
+                             alt="Mobile screen showing issue reporting with map location picker"
+                             style="width: 100%; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.2);">
+                        <p style="margin-top: 0.75rem; color: #64748b; font-size: 0.85rem; font-weight: 600;">Report Issue - Location</p>
+                    </div>
+                    <div style="flex: 1; min-width: 250px; max-width: 350px;">
+                        <img src="images/CivicMobilescreen4.png"
+                             alt="Mobile screen showing issue category selection"
+                             style="width: 100%; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.2);">
+                        <p style="margin-top: 0.75rem; color: #64748b; font-size: 0.85rem; font-weight: 600;">Report Issue - Category</p>
+                    </div>
+                    <div style="flex: 1; min-width: 250px; max-width: 350px;">
+                        <img src="images/CivicMobilescreen5.png"
+                             alt="Mobile screen showing issue details entry"
+                             style="width: 100%; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.2);">
+                        <p style="margin-top: 0.75rem; color: #64748b; font-size: 0.85rem; font-weight: 600;">Report Issue - Details</p>
+                    </div>
+                </div>
+                <div style="display: flex; gap: 1.5rem; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
+                    <div style="flex: 1; min-width: 250px; max-width: 350px;">
+                        <img src="images/CivicMobilescreen.png"
+                             alt="Mobile calendar view showing upcoming community meetings"
+                             style="width: 100%; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.2);">
+                        <p style="margin-top: 0.75rem; color: #64748b; font-size: 0.85rem; font-weight: 600;">Meetings Calendar</p>
+                    </div>
+                    <div style="flex: 1; min-width: 250px; max-width: 350px;">
+                        <img src="images/CivicMobilescreen6.png"
+                             alt="Mobile screen showing meeting details"
+                             style="width: 100%; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.2);">
+                        <p style="margin-top: 0.75rem; color: #64748b; font-size: 0.85rem; font-weight: 600;">Meeting Details</p>
+                    </div>
+                    <div style="flex: 1; min-width: 250px; max-width: 350px;">
+                        <img src="images/CivicMobilescreen7.png"
+                             alt="Mobile screen showing additional civic feature"
+                             style="width: 100%; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.2);">
+                        <p style="margin-top: 0.75rem; color: #64748b; font-size: 0.85rem; font-weight: 600;">Additional Features</p>
+                    </div>
+                </div>
+                <p style="margin-top: 1.5rem; color: #64748b; font-size: 0.95rem;">The mobile experience demonstrates the complete user journey from discovering civic information to taking action. The report issue flow uses multi-step progressive disclosure (location → category → details), keeping each screen focused on one task. The meetings section combines calendar views with plain English event descriptions, social proof ("12 residents interested"), and quick actions to add events to personal calendars.</p>
             </div>
 
             <div class="design-decision">
@@ -245,17 +307,6 @@
                         <p>4 focused screens, 23% abandonment, 2.1 min completion time</p>
                     </div>
                 </div>
-            </div>
-
-            <h3>2. Community Meeting Discovery</h3>
-            <p>Most residents didn't know meetings were happening or when they could provide input. The meeting calendar makes civic events discoverable and actionable.</p>
-
-            <div class="design-showcase" style="margin: 3rem 0; background: white; padding: 3rem; border-radius: 20px; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
-                <h4 style="margin-bottom: 2rem; color: #1e40af;">Community Meetings Calendar</h4>
-                <img src="images/civic-meetings.png" 
-                     alt="Mobile calendar view showing upcoming community meetings" 
-                     style="width: 100%; max-width: 400px; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.15);">
-                <p style="margin-top: 1.5rem; color: #64748b; font-size: 0.95rem;">The meetings view combines a calendar with a list of upcoming events. Each meeting shows plain English descriptions (not bureaucratic titles), locations with map thumbnails, and social proof showing how many neighbors are interested.</p>
             </div>
 
             <ul class="key-findings">

@@ -142,7 +142,7 @@
         </section>
 
         <section class="content-section">
-            <h2><span class="section-icon"></span>Design Solution: Real-Time Sensory Intelligence</h2>
+            <h2><span class="section-icon">💡</span>Design Solution: Real-Time Sensory Intelligence</h2>
             
             <p>The core innovation: using smartphone sensors + AR to quantify environments in real time and compare against the user's personal sensory profile.</p>
 
@@ -155,11 +155,48 @@
             </ul>
 
             <div class="design-showcase" style="margin: 3rem 0; background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%); padding: 3rem; border-radius: 20px; text-align: center;">
-                <h4 style="margin-bottom: 2rem; color: #1e40af;">Sensory Profile Setup</h4>
-                <img src="images/sensory-profile-setup.png" 
-                     alt="Onboarding screen for setting sensory sensitivities" 
-                     style="width: 100%; max-width: 400px; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.2);">
-                <p style="margin-top: 1.5rem; color: #64748b; font-size: 0.95rem;">Users set their personal sensitivity levels across 6 sensory dimensions: Auditory, Visual, Tactile, Olfactory, Proprioceptive, and Vestibular. This personalization ensures the app matches environments to their unique needs, not generic assumptions.</p>
+                <h4 style="margin-bottom: 2rem; color: #1e40af;">Core App Experience</h4>
+                <div style="display: flex; gap: 1.5rem; justify-content: center; align-items: flex-start; flex-wrap: wrap; margin-bottom: 1.5rem;">
+                    <div style="flex: 1; min-width: 250px; max-width: 350px;">
+                        <img src="images/Sensoryscreen1.png"
+                             alt="Onboarding screen for setting sensory sensitivities"
+                             style="width: 100%; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.2);">
+                        <p style="margin-top: 0.75rem; color: #64748b; font-size: 0.85rem; font-weight: 600;">Profile Setup</p>
+                    </div>
+                    <div style="flex: 1; min-width: 250px; max-width: 350px;">
+                        <img src="images/Sensoryscreen5.png"
+                             alt="Additional profile customization screen"
+                             style="width: 100%; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.2);">
+                        <p style="margin-top: 0.75rem; color: #64748b; font-size: 0.85rem; font-weight: 600;">Sensitivity Levels</p>
+                    </div>
+                    <div style="flex: 1; min-width: 250px; max-width: 350px;">
+                        <img src="images/Sensoryscreen6.png"
+                             alt="Profile completion screen"
+                             style="width: 100%; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.2);">
+                        <p style="margin-top: 0.75rem; color: #64748b; font-size: 0.85rem; font-weight: 600;">Home Dashboard</p>
+                    </div>
+                </div>
+                <div style="display: flex; gap: 1.5rem; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
+                    <div style="flex: 1; min-width: 250px; max-width: 350px;">
+                        <img src="images/Sensoryscreen2.png"
+                             alt="AR overlay showing sound level and crowd density"
+                             style="width: 100%; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.2);">
+                        <p style="margin-top: 0.75rem; color: #64748b; font-size: 0.85rem; font-weight: 600;">AR Environmental Scan</p>
+                    </div>
+                    <div style="flex: 1; min-width: 250px; max-width: 350px;">
+                        <img src="images/Sensoryscreen7.png"
+                             alt="Detailed sensory reading screen"
+                             style="width: 100%; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.2);">
+                        <p style="margin-top: 0.75rem; color: #64748b; font-size: 0.85rem; font-weight: 600;">Detailed Analysis</p>
+                    </div>
+                    <div style="flex: 1; min-width: 250px; max-width: 350px;">
+                        <img src="images/Sensoryscreen8.png"
+                             alt="Historical data and trends"
+                             style="width: 100%; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.2);">
+                        <p style="margin-top: 0.75rem; color: #64748b; font-size: 0.85rem; font-weight: 600;">History & Insights</p>
+                    </div>
+                </div>
+                <p style="margin-top: 1.5rem; color: #64748b; font-size: 0.95rem;">The app guides users through personalized profile setup across 6 sensory dimensions (Auditory, Visual, Tactile, Olfactory, Proprioceptive, Vestibular). Once configured, the AR overlay shows real-time sensory data with personalized ratings like "6/10 - Challenging for you." The app also tracks patterns over time, helping users understand their triggers and find patterns in their sensory experiences.</p>
             </div>
 
             <div class="design-decision">
@@ -179,17 +216,9 @@
         </section>
 
         <section class="content-section">
-            <h2><span class="section-icon"></span>Real-Time Environmental Scanning</h2>
-            
-            <p>The app's most technically ambitious feature: using AR and sensors to quantify sensory stimuli in real-time.</p>
+            <h2><span class="section-icon">📡</span>Real-Time Environmental Scanning</h2>
 
-            <div class="design-showcase" style="margin: 3rem 0; background: white; padding: 3rem; border-radius: 20px; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
-                <h4 style="margin-bottom: 2rem; color: #0891b2;">AR Environmental Scan</h4>
-                <img src="images/sensory-ar-scan.png" 
-                     alt="AR overlay showing sound level and crowd density" 
-                     style="width: 100%; max-width: 400px; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.15);">
-                <p style="margin-top: 1.5rem; color: #64748b; font-size: 0.95rem;">The AR overlay shows real-time sensory data: 68 dB sound level (yellow warning), "Crowded" density, and a fluorescent light warning. The overall rating "6/10 - Challenging for you" is personalized to the user's profile. The ? icon provides context for each metric.</p>
-            </div>
+            <p>The app's most technically ambitious feature: using AR and sensors to quantify sensory stimuli in real-time.</p>
 
             <h3>What Gets Measured</h3>
             <ul class="key-findings">
@@ -215,16 +244,33 @@
         </section>
 
         <section class="content-section">
-            <h2><span class="section-icon"></span>Location Profiles: Crowdsourced Intelligence</h2>
-            
-            <p>Beyond real-time scanning, users can view saved profiles for specific locations—think Yelp, but for sensory information.</p>
+            <h2><span class="section-icon">📍</span>Location Intelligence & Emergency Support</h2>
+
+            <p>Beyond real-time scanning, users can view saved profiles for specific locations and access emergency escape routes when overwhelm hits.</p>
 
             <div class="design-showcase" style="margin: 3rem 0; background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); padding: 3rem; border-radius: 20px; text-align: center;">
-                <h4 style="margin-bottom: 2rem; color: #92400e;">Location Sensory Profile</h4>
-                <img src="images/sensory-location-profile.png" 
-                     alt="Cafe profile showing sensory dimensions and community tips" 
-                     style="width: 100%; max-width: 400px; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.2);">
-                <p style="margin-top: 1.5rem; color: #64748b; font-size: 0.95rem;">The radar chart visualizes a location's sensory profile across 6 dimensions. "Quietest: 9-11am" and "Busiest: 5-7pm" help users time visits. Community tips like "Best quiet spot: back left corner" provide insider knowledge. Users can "Add to My Safe Places" to build a personal database of comfortable locations.</p>
+                <h4 style="margin-bottom: 2rem; color: #92400e;">Location Intelligence & Emergency Features</h4>
+                <div style="display: flex; gap: 1.5rem; justify-content: center; align-items: flex-start; flex-wrap: wrap; margin-bottom: 1.5rem;">
+                    <div style="flex: 1; min-width: 250px; max-width: 350px;">
+                        <img src="images/Sensoryscreen3.png"
+                             alt="Cafe profile showing sensory dimensions and community tips"
+                             style="width: 100%; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.2);">
+                        <p style="margin-top: 0.75rem; color: #64748b; font-size: 0.85rem; font-weight: 600;">Location Profile</p>
+                    </div>
+                    <div style="flex: 1; min-width: 250px; max-width: 350px;">
+                        <img src="images/Sensoryscreen9.png"
+                             alt="Safe places and favorites"
+                             style="width: 100%; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.2);">
+                        <p style="margin-top: 0.75rem; color: #64748b; font-size: 0.85rem; font-weight: 600;">Safe Places</p>
+                    </div>
+                    <div style="flex: 1; min-width: 250px; max-width: 350px;">
+                        <img src="images/Sensoryscreen4.png"
+                             alt="AR arrows pointing to bathroom with alternative options"
+                             style="width: 100%; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.2);">
+                        <p style="margin-top: 0.75rem; color: #64748b; font-size: 0.85rem; font-weight: 600;">AR Escape Route</p>
+                    </div>
+                </div>
+                <p style="margin-top: 1.5rem; color: #64748b; font-size: 0.95rem;">The radar chart visualizes a location's sensory profile across 6 dimensions with time-based data and community tips. Users can save comfortable locations to their "Safe Places" collection for quick reference. When overwhelm hits, AR arrows immediately guide users to the nearest quiet space—the large red button is always accessible with no menus to navigate when panicking.</p>
             </div>
 
             <h3>Location Profile Features</h3>
@@ -239,20 +285,8 @@
             <div class="quote-box">
                 <p>"Finding out there's a quiet corner in that cafe changed everything. I'd avoided cafes for years because I assumed they were all overwhelming."</p>
             </div>
-        </section>
 
-        <section class="content-section">
-            <h2><span class="section-icon"></span>Emergency Escape Routes</h2>
-            
-            <p>The feature that elicited the strongest emotional response in testing: AR guided escape routes when sensory overload hits.</p>
-
-            <div class="design-showcase" style="margin: 3rem 0; background: white; padding: 3rem; border-radius: 20px; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
-                <h4 style="margin-bottom: 2rem; color: #0891b2;">AR Escape Route</h4>
-                <img src="images/sensory-escape-route.png" 
-                     alt="AR arrows pointing to bathroom with alternative options" 
-                     style="width: 100%; max-width: 400px; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.15);">
-                <p style="margin-top: 1.5rem; color: #64748b; font-size: 0.95rem;">When overwhelm hits, the user taps "I need a break." AR arrows immediately guide them to the nearest quiet space (bathroom, 32 seconds away). Alternative options are shown but dimmed. The large red button is always accessible—no menus to navigate when panicking.</p>
-            </div>
+            <h3>Emergency Escape Route Design</h3>
 
             <h3>Why This Matters</h3>
             <p>During sensory overload, cognitive function declines. You can't think clearly, process signs, or navigate complex spaces. The AR guidance removes that cognitive load.</p>
@@ -275,7 +309,7 @@
         </section>
 
         <section class="content-section">
-            <h2><span class="section-icon"></span>Design System: Calm in Chaos</h2>
+            <h2><span class="section-icon">🎨</span>Design System: Calm in Chaos</h2>
             
             <p>The visual design needed to be calming and low-stimulation—ironic for an app that helps with sensory overwhelm to then BE visually overwhelming.</p>
 
@@ -298,7 +332,7 @@
         </section>
 
         <section class="content-section">
-            <h2><span class="section-icon"></span>User Testing: Validation in the Wild</h2>
+            <h2><span class="section-icon">🧪</span>User Testing: Validation in the Wild</h2>
             
             <p>Testing was done in actual overwhelming environments—grocery stores, malls, crowded restaurants—to see if the app performed under real sensory stress.</p>
 
@@ -352,7 +386,7 @@
         </section>
 
         <section class="content-section">
-            <h2><span class="section-icon"></span>Technical & Ethical Challenges</h2>
+            <h2><span class="section-icon">🚧</span>Technical & Ethical Challenges</h2>
             
             <h3>Challenge 1: AR Performance in Diverse Environments</h3>
             <p><strong>Problem:</strong> AR tracking fails in very bright or very dark spaces—exactly the conditions that might be sensory triggers.</p>
@@ -372,7 +406,7 @@
         </section>
 
         <section class="content-section">
-            <h2><span class="section-icon"></span>Reflections & Future Vision</h2>
+            <h2><span class="section-icon">💭</span>Reflections & Future Vision</h2>
             
             <h3>What I Learned</h3>
             <ul class="key-findings">
