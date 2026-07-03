@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sensory | Brandon Antezana</title>
-    <link rel="stylesheet" href="style-colorful.css">
+    <link rel="stylesheet" href="style-case-study.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body style="--accent: #b0672c;">
     <nav>
         <div class="container">
             <div class="nav-content">
@@ -22,9 +22,10 @@
         </div>
     </nav>
 
-    <div class="case-study-hero" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+    <div class="case-study-hero">
         <div class="container">
-            <h1> Sensory</h1>
+            <span class="eyebrow">Case Study 03</span>
+            <h1>Sensory</h1>
             <p class="subtitle">AR mobile app helping neurodiverse individuals navigate and manage overwhelming sensory environments</p>
             <div class="hero-meta">
                 <div class="meta-item">
@@ -59,7 +60,7 @@
                     <p>An AR app that scans environments in real time, detects sensory triggers (noise, light, crowds, smells), rates spaces against the user's personal sensory profile, and provides AR guided escape routes to quiet spaces when overwhelm hits. Think Google Maps, but for sensory safety.</p>
                 </div>
             </div>
-            
+
             <div class="stats-grid">
                 <div class="stat-card">
                     <span class="stat-number">92%</span>
@@ -79,9 +80,9 @@
 
     <div class="container">
         <section class="content-section">
-            <h2><span class="section-icon"></span>The Invisible Disability</h2>
+            <h2>The Invisible Disability</h2>
             <p>Sensory processing differences are invisible but debilitating. A neurotypical person walks into Target and shops. An autistic person walks into Target and is assaulted by:</p>
-            
+
             <ul class="key-findings">
                 <li>Fluorescent lights flickering at 60Hz</li>
                 <li>Overlapping music, announcements, cart squeaks</li>
@@ -107,8 +108,8 @@
         </section>
 
         <section class="content-section">
-            <h2><span class="section-icon"></span>Research: Understanding Sensory Overload</h2>
-            
+            <h2>Research: Understanding Sensory Overload</h2>
+
             <h3>Methodology</h3>
             <p>I interviewed 8 neurodiverse individuals (autism, ADHD, PTSD, sensory processing disorder) and conducted observational studies in various public spaces.</p>
 
@@ -142,61 +143,47 @@
         </section>
 
         <section class="content-section">
-            <h2><span class="section-icon"></span>Design Solution: Real-Time Sensory Intelligence</h2>
-            
+            <h2>Design Solution: Real-Time Sensory Intelligence</h2>
+
             <p>The core innovation: using smartphone sensors + AR to quantify environments in real time and compare against the user's personal sensory profile.</p>
 
             <h3>How It Works</h3>
-            <ul style="margin-left: 2rem; margin-top: 1rem;">
+            <ul>
                 <li><strong>Setup:</strong> User creates sensory profile (which stimuli overwhelm them)</li>
                 <li><strong>Scanning:</strong> Camera + microphone scan environment (decibel level, light flicker, crowd density)</li>
                 <li><strong>Matching:</strong> App compares environment to user's profile and generates compatibility score</li>
                 <li><strong>Guidance:</strong> AR overlays show safe spaces or escape routes when needed</li>
             </ul>
 
-            <div class="design-showcase" style="margin: 3rem 0; background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%); padding: 3rem; border-radius: 20px; text-align: center;">
-                <h4 style="margin-bottom: 2rem; color: #1e40af;">Core App Experience</h4>
-                <div style="display: flex; gap: 1.5rem; justify-content: center; align-items: flex-start; flex-wrap: wrap; margin-bottom: 1.5rem;">
-                    <div style="flex: 1; min-width: 250px; max-width: 350px;">
-                        <img src="images/Sensoryscreen1.png"
-                             alt="Onboarding screen for setting sensory sensitivities"
-                             style="width: 100%; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.2);">
-                        <p style="margin-top: 0.75rem; color: #64748b; font-size: 0.85rem; font-weight: 600;">Profile Setup</p>
+            <div class="showcase">
+                <h4>Core App Experience</h4>
+                <div class="showcase-grid">
+                    <div>
+                        <img src="images/Sensoryscreen1.png" alt="Onboarding screen for setting sensory sensitivities">
+                        <p class="showcase-caption">Profile Setup</p>
                     </div>
-                    <div style="flex: 1; min-width: 250px; max-width: 350px;">
-                        <img src="images/Sensoryscreen5.png"
-                             alt="Additional profile customization screen"
-                             style="width: 100%; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.2);">
-                        <p style="margin-top: 0.75rem; color: #64748b; font-size: 0.85rem; font-weight: 600;">Sensitivity Levels</p>
+                    <div>
+                        <img src="images/Sensoryscreen5.png" alt="Additional profile customization screen">
+                        <p class="showcase-caption">Sensitivity Levels</p>
                     </div>
-                    <div style="flex: 1; min-width: 250px; max-width: 350px;">
-                        <img src="images/Sensoryscreen6.png"
-                             alt="Profile completion screen"
-                             style="width: 100%; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.2);">
-                        <p style="margin-top: 0.75rem; color: #64748b; font-size: 0.85rem; font-weight: 600;">Home Dashboard</p>
+                    <div>
+                        <img src="images/Sensoryscreen6.png" alt="Profile completion screen">
+                        <p class="showcase-caption">Home Dashboard</p>
                     </div>
-                </div>
-                <div style="display: flex; gap: 1.5rem; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
-                    <div style="flex: 1; min-width: 250px; max-width: 350px;">
-                        <img src="images/Sensoryscreen2.png"
-                             alt="AR overlay showing sound level and crowd density"
-                             style="width: 100%; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.2);">
-                        <p style="margin-top: 0.75rem; color: #64748b; font-size: 0.85rem; font-weight: 600;">AR Environmental Scan</p>
+                    <div>
+                        <img src="images/Sensoryscreen2.png" alt="AR overlay showing sound level and crowd density">
+                        <p class="showcase-caption">AR Environmental Scan</p>
                     </div>
-                    <div style="flex: 1; min-width: 250px; max-width: 350px;">
-                        <img src="images/Sensoryscreen7.png"
-                             alt="Detailed sensory reading screen"
-                             style="width: 100%; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.2);">
-                        <p style="margin-top: 0.75rem; color: #64748b; font-size: 0.85rem; font-weight: 600;">Detailed Analysis</p>
+                    <div>
+                        <img src="images/Sensoryscreen7.png" alt="Detailed sensory reading screen">
+                        <p class="showcase-caption">Detailed Analysis</p>
                     </div>
-                    <div style="flex: 1; min-width: 250px; max-width: 350px;">
-                        <img src="images/Sensoryscreen8.png"
-                             alt="Historical data and trends"
-                             style="width: 100%; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.2);">
-                        <p style="margin-top: 0.75rem; color: #64748b; font-size: 0.85rem; font-weight: 600;">History & Insights</p>
+                    <div>
+                        <img src="images/Sensoryscreen8.png" alt="Historical data and trends">
+                        <p class="showcase-caption">History & Insights</p>
                     </div>
                 </div>
-                <p style="margin-top: 1.5rem; color: #64748b; font-size: 0.95rem;">The app guides users through personalized profile setup across 6 sensory dimensions (Auditory, Visual, Tactile, Olfactory, Proprioceptive, Vestibular). Once configured, the AR overlay shows real-time sensory data with personalized ratings like "6/10 - Challenging for you." The app also tracks patterns over time, helping users understand their triggers and find patterns in their sensory experiences.</p>
+                <p class="showcase-note">The app guides users through personalized profile setup across 6 sensory dimensions (Auditory, Visual, Tactile, Olfactory, Proprioceptive, Vestibular). Once configured, the AR overlay shows real-time sensory data with personalized ratings like "6/10 - Challenging for you." The app also tracks patterns over time, helping users understand their triggers and find patterns in their sensory experiences.</p>
             </div>
 
             <div class="design-decision">
@@ -204,11 +191,11 @@
                 <p>Sensory processing is highly individual. Designing for "the average autistic person" would serve no one.</p>
                 <div class="before-after">
                     <div>
-                        <strong>❌ Generic Approach</strong>
+                        <strong>Generic Approach</strong>
                         <p>App assumes all users are sound sensitive. Misses visual, tactile, and olfactory triggers.</p>
                     </div>
                     <div>
-                        <strong>✅ Personalized Profile</strong>
+                        <strong>Personalized Profile</strong>
                         <p>App learns YOUR specific triggers and rates environments based on YOUR needs.</p>
                     </div>
                 </div>
@@ -216,7 +203,7 @@
         </section>
 
         <section class="content-section">
-            <h2><span class="section-icon"></span>Real-Time Environmental Scanning</h2>
+            <h2>Real-Time Environmental Scanning</h2>
 
             <p>The app's most technically ambitious feature: using AR and sensors to quantify sensory stimuli in real-time.</p>
 
@@ -230,7 +217,7 @@
 
             <h3>The Personalized Rating</h3>
             <p>Instead of generic "loud" or "bright," the app generates a personalized compatibility score:</p>
-            <ul style="margin-left: 2rem; margin-top: 1rem;">
+            <ul>
                 <li><strong>9-10:</strong> "Comfortable for you" (green)</li>
                 <li><strong>6-8:</strong> "Challenging for you" (yellow)</li>
                 <li><strong>3-5:</strong> "Difficult for you" (orange)</li>
@@ -244,33 +231,27 @@
         </section>
 
         <section class="content-section">
-            <h2><span class="section-icon"></span>Location Intelligence & Emergency Support</h2>
+            <h2>Location Intelligence & Emergency Support</h2>
 
             <p>Beyond real-time scanning, users can view saved profiles for specific locations and access emergency escape routes when overwhelm hits.</p>
 
-            <div class="design-showcase" style="margin: 3rem 0; background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); padding: 3rem; border-radius: 20px; text-align: center;">
-                <h4 style="margin-bottom: 2rem; color: #92400e;">Location Intelligence & Emergency Features</h4>
-                <div style="display: flex; gap: 1.5rem; justify-content: center; align-items: flex-start; flex-wrap: wrap; margin-bottom: 1.5rem;">
-                    <div style="flex: 1; min-width: 250px; max-width: 350px;">
-                        <img src="images/Sensoryscreen3.png"
-                             alt="Cafe profile showing sensory dimensions and community tips"
-                             style="width: 100%; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.2);">
-                        <p style="margin-top: 0.75rem; color: #64748b; font-size: 0.85rem; font-weight: 600;">Location Profile</p>
+            <div class="showcase">
+                <h4>Location Intelligence & Emergency Features</h4>
+                <div class="showcase-grid">
+                    <div>
+                        <img src="images/Sensoryscreen3.png" alt="Cafe profile showing sensory dimensions and community tips">
+                        <p class="showcase-caption">Location Profile</p>
                     </div>
-                    <div style="flex: 1; min-width: 250px; max-width: 350px;">
-                        <img src="images/Sensoryscreen9.png"
-                             alt="Safe places and favorites"
-                             style="width: 100%; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.2);">
-                        <p style="margin-top: 0.75rem; color: #64748b; font-size: 0.85rem; font-weight: 600;">Safe Places</p>
+                    <div>
+                        <img src="images/Sensoryscreen9.png" alt="Safe places and favorites">
+                        <p class="showcase-caption">Safe Places</p>
                     </div>
-                    <div style="flex: 1; min-width: 250px; max-width: 350px;">
-                        <img src="images/Sensoryscreen4.png"
-                             alt="AR arrows pointing to bathroom with alternative options"
-                             style="width: 100%; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.2);">
-                        <p style="margin-top: 0.75rem; color: #64748b; font-size: 0.85rem; font-weight: 600;">AR Escape Route</p>
+                    <div>
+                        <img src="images/Sensoryscreen4.png" alt="AR arrows pointing to bathroom with alternative options">
+                        <p class="showcase-caption">AR Escape Route</p>
                     </div>
                 </div>
-                <p style="margin-top: 1.5rem; color: #64748b; font-size: 0.95rem;">The radar chart visualizes a location's sensory profile across 6 dimensions with time-based data and community tips. Users can save comfortable locations to their "Safe Places" collection for quick reference. When overwhelm hits, AR arrows immediately guide users to the nearest quiet space the large red button is always accessible with no menus to navigate when panicking.</p>
+                <p class="showcase-note">The radar chart visualizes a location's sensory profile across 6 dimensions with time-based data and community tips. Users can save comfortable locations to their "Safe Places" collection for quick reference. When overwhelm hits, AR arrows immediately guide users to the nearest quiet space the large red button is always accessible with no menus to navigate when panicking.</p>
             </div>
 
             <h3>Location Profile Features</h3>
@@ -287,13 +268,11 @@
             </div>
 
             <h3>Emergency Escape Route Design</h3>
-
-            <h3>Why This Matters</h3>
             <p>During sensory overload, cognitive function declines. You can't think clearly, process signs, or navigate complex spaces. The AR guidance removes that cognitive load.</p>
 
             <div class="design-decision">
                 <h4>Design Decisions</h4>
-                <ul style="margin-left: 2rem; margin-top: 1rem;">
+                <ul>
                     <li><strong>Large Red Button:</strong> High contrast, impossible to miss when vision is compromised by panic</li>
                     <li><strong>Immediate Action:</strong> No confirmation dialogs or menus. One tap = instant guidance.</li>
                     <li><strong>Multiple Destinations:</strong> Bathroom (private), outdoor area (fresh air), or exit (full escape)</li>
@@ -309,8 +288,8 @@
         </section>
 
         <section class="content-section">
-            <h2><span class="section-icon"></span>Design System: Calm in Chaos</h2>
-            
+            <h2>Design System: Calm in Chaos</h2>
+
             <p>The visual design needed to be calming and low-stimulation, ironic for an app that helps with sensory overwhelm to then BE visually overwhelming.</p>
 
             <h3>Color Strategy</h3>
@@ -332,8 +311,8 @@
         </section>
 
         <section class="content-section">
-            <h2><span class="section-icon"></span>User Testing: Validation in the Wild</h2>
-            
+            <h2>User Testing: Validation in the Wild</h2>
+
             <p>Testing was done in actual overwhelming environments, grocery stores, malls, crowded restaurants to see if the app performed under real sensory stress.</p>
 
             <h3>Testing Protocol</h3>
@@ -355,12 +334,12 @@
             <h3>Key Findings</h3>
             <div class="before-after">
                 <div>
-                    <strong>What Worked ✅</strong>
-                    <p>• 92% said profiles accurately matched their needs<br>• 78% successfully prevented overload using app<br>• Escape routes worked 100% of time<br>• Community tips were "game changing"</p>
+                    <strong>What Worked</strong>
+                    <p>92% said profiles accurately matched their needs<br>78% successfully prevented overload using app<br>Escape routes worked 100% of time<br>Community tips were "game changing"</p>
                 </div>
                 <div>
-                    <strong>What Needed Iteration ❌</strong>
-                    <p>• AR arrows sometimes hard to see in bright light (increased contrast)<br>• Wanted "safe places nearby" map view<br>• Battery drain was high (optimized scanning)<br>• Needed offline mode for areas with poor signal</p>
+                    <strong>What Needed Iteration</strong>
+                    <p>AR arrows sometimes hard to see in bright light (increased contrast)<br>Wanted "safe places nearby" map view<br>Battery drain was high (optimized scanning)<br>Needed offline mode for areas with poor signal</p>
                 </div>
             </div>
 
@@ -369,7 +348,7 @@
                 <p>"I went to the grocery store at 2pm on a Saturday, something I NEVER do. The app told me it would be challenging, I prepared, and I made it through without a meltdown. That's huge."</p>
             </div>
 
-            <div class="stats-grid" style="margin-top: 2rem;">
+            <div class="stats-grid">
                 <div class="stat-card">
                     <span class="stat-number">92%</span>
                     <span class="stat-label">less anxiety about new places</span>
@@ -386,8 +365,8 @@
         </section>
 
         <section class="content-section">
-            <h2><span class="section-icon"></span>Technical & Ethical Challenges</h2>
-            
+            <h2>Technical & Ethical Challenges</h2>
+
             <h3>Challenge 1: AR Performance in Diverse Environments</h3>
             <p><strong>Problem:</strong> AR tracking fails in very bright or very dark spaces, exactly the conditions that might be sensory triggers.</p>
             <p><strong>Solution:</strong> Fallback to manual input mode. If AR fails, app switches to text-based guidance ("Turn left at the food court").</p>
@@ -406,8 +385,8 @@
         </section>
 
         <section class="content-section">
-            <h2><span class="section-icon"></span>Reflections & Future Vision</h2>
-            
+            <h2>Reflections & Future Vision</h2>
+
             <h3>What I Learned</h3>
             <ul class="key-findings">
                 <li><strong>Accessibility is Innovation:</strong> Designing for neurodiverse users pushed me to create features (escape routes, personalized profiles) that benefit everyone.</li>
@@ -426,9 +405,9 @@
             </ul>
         </section>
 
-        <section class="content-section" style="background: linear-gradient(135deg, #faf5ff 0%, #f3e8ff 100%); border-left: 5px solid #a855f7;">
-            <h2 style="color: #7c3aed;"><span class="section-icon"></span>Key Takeaways</h2>
-            
+        <section class="content-section takeaways">
+            <h2>Key Takeaways</h2>
+
             <ul class="key-findings">
                 <li><strong>Design for the Margins, Benefit the Center:</strong> Features built for neurodiverse users (advance information, escape routes, personalized profiles) help everyone. Accessible design is better design.</li>
                 <li><strong>Technology as Empowerment:</strong> The right technology doesn't "fix" neurodiversity, it removes environmental barriers and creates independence.</li>
@@ -441,9 +420,8 @@
 
     <footer>
         <div class="container">
-            <p style="font-size: 1.125rem; font-weight: 600; margin-bottom: 0.5rem;">© 2025 Brandon Antezana</p>
-            <p>Designed with purpose • Crafted with empathy</p>
-            <p style="margin-top: 1rem;">bantezana1@gmail.com | <a href="https://www.linkedin.com/in/brandon-a-775408137">LinkedIn</a></p>
+            <p>© 2025 Brandon Antezana — designed with purpose, crafted with empathy</p>
+            <p>bantezana1@gmail.com &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/brandon-a-775408137">LinkedIn</a></p>
         </div>
     </footer>
 </body>
