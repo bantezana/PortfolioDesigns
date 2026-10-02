@@ -4,27 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grief Companion — An AI-Native Case Study | Brandon Antezana</title>
-    <link rel="stylesheet" href="style-case-study.css">
+    <script>document.documentElement.classList.add('js');</script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,500;0,600;0,700;1,600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style-base.css">
+    <link rel="stylesheet" href="style-case-study.css">
 </head>
 <body style="--accent: #8c3f4d;">
-    <nav>
-        <div class="container">
-            <div class="nav-content">
-                <a href="index.html" class="logo">Brandon Antezana</a>
-                <ul class="nav-links">
-                    <li><a href="index.html#work">Case Studies</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-nav">
+        <nav class="nav-inner" aria-label="Primary">
+            <a href="index.html" class="logo">Brandon Antezana</a>
+            <ul class="nav-links">
+                <li><a href="index.html#work" aria-current="page">Work</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="nav-cta">Let's talk</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
 
     <div class="case-study-hero">
         <div class="container">
+            <a href="index.html#work" class="back-link">← All work</a>
             <span class="eyebrow">Case Study 01 · AI-Native Product</span>
             <h1>Grief Companion</h1>
             <p class="subtitle">An AI-native mobile app providing compassionate, 24/7 conversational support for people navigating loss and bereavement</p>
@@ -314,25 +319,34 @@
                 <li><strong>Privacy enables honesty:</strong> People told the AI things they wouldn't tell friends because there was no relationship to damage. That's a profound design lever for mental-health products.</li>
                 <li><strong>Next:</strong> counselor-reviewed mood patterns, moderated Community Circles, a caregiver mode, and cultural localization of grief practices.</li>
             </ul>
+            <a href="civic.html" class="next-project">
+                <span class="label">Next case study</span>
+                <strong>Civic</strong>
+                <span>Making local government readable and actionable →</span>
+            </a>
         </section>
     </div>
 
-    <footer>
-        <div class="container">
-            <p>© 2025 Brandon Antezana — designed with purpose, crafted with empathy</p>
-            <p>bantezana1@gmail.com &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/brandon-a-775408137">LinkedIn</a></p>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div>
+                <p class="footer-name">Brandon Antezana</p>
+                <p class="footer-note">Product designer for screens, objects, and the systems between them.</p>
+            </div>
+            <ul class="footer-links">
+                <li><a href="mailto:bantezana1@gmail.com">bantezana1@gmail.com</a></li>
+                <li><a href="https://www.linkedin.com/in/brandon-a-775408137">LinkedIn ↗</a></li>
+            </ul>
+        </div>
+        <div class="footer-inner footer-meta">
+            <p>© 2026 Brandon Antezana</p>
+            <p>Designed with purpose, crafted with empathy.</p>
         </div>
     </footer>
 
     <button class="back-to-top" aria-label="Back to top">↑</button>
-    <script>
-        const backToTop = document.querySelector('.back-to-top');
-        window.addEventListener('scroll', () => {
-            backToTop.classList.toggle('is-visible', window.scrollY > 600);
-        });
-        backToTop.addEventListener('click', () => {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        });
-    </script>
+    <script src="site.js"></script>
 </body>
 </html>

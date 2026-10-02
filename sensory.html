@@ -4,27 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sensory | Brandon Antezana</title>
-    <link rel="stylesheet" href="style-case-study.css">
+    <script>document.documentElement.classList.add('js');</script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,500;0,600;0,700;1,600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style-base.css">
+    <link rel="stylesheet" href="style-case-study.css">
 </head>
-<body style="--accent: #b0672c;">
-    <nav>
-        <div class="container">
-            <div class="nav-content">
-                <a href="index.html" class="logo">Brandon Antezana</a>
-                <ul class="nav-links">
-                    <li><a href="index.html#work">Case Studies</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+<body style="--accent: #985622;">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-nav">
+        <nav class="nav-inner" aria-label="Primary">
+            <a href="index.html" class="logo">Brandon Antezana</a>
+            <ul class="nav-links">
+                <li><a href="index.html#work" aria-current="page">Work</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="nav-cta">Let's talk</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
 
     <div class="case-study-hero">
         <div class="container">
+            <a href="index.html#work" class="back-link">← All work</a>
             <span class="eyebrow">Case Study 03</span>
             <h1>Sensory</h1>
             <p class="subtitle">AR mobile app helping neurodiverse individuals navigate and manage overwhelming sensory environments</p>
@@ -233,25 +238,34 @@
                 <li><strong>Constraints are strategy:</strong> Admitting what phones can't sense produced the product's honest framing (estimates, not measurements) and its community moat.</li>
                 <li><strong>Lived experience must lead:</strong> Participants cried during testing because the app let them go places alone they'd avoided for years. No research paper substitutes for co-design.</li>
             </ul>
+            <a href="senko.html" class="next-project">
+                <span class="label">Next case study</span>
+                <strong>SENKŌ</strong>
+                <span>A physical product: one pen, every line →</span>
+            </a>
         </section>
     </div>
 
-    <footer>
-        <div class="container">
-            <p>© 2025 Brandon Antezana — designed with purpose, crafted with empathy</p>
-            <p>bantezana1@gmail.com &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/brandon-a-775408137">LinkedIn</a></p>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div>
+                <p class="footer-name">Brandon Antezana</p>
+                <p class="footer-note">Product designer for screens, objects, and the systems between them.</p>
+            </div>
+            <ul class="footer-links">
+                <li><a href="mailto:bantezana1@gmail.com">bantezana1@gmail.com</a></li>
+                <li><a href="https://www.linkedin.com/in/brandon-a-775408137">LinkedIn ↗</a></li>
+            </ul>
+        </div>
+        <div class="footer-inner footer-meta">
+            <p>© 2026 Brandon Antezana</p>
+            <p>Designed with purpose, crafted with empathy.</p>
         </div>
     </footer>
 
     <button class="back-to-top" aria-label="Back to top">↑</button>
-    <script>
-        const backToTop = document.querySelector('.back-to-top');
-        window.addEventListener('scroll', () => {
-            backToTop.classList.toggle('is-visible', window.scrollY > 600);
-        });
-        backToTop.addEventListener('click', () => {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        });
-    </script>
+    <script src="site.js"></script>
 </body>
 </html>

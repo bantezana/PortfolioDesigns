@@ -4,24 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About | Brandon Antezana</title>
-    <link rel="stylesheet" href="style-pages.css">
+    <script>document.documentElement.classList.add('js');</script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,500;0,600;0,700;1,600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style-base.css">
+    <link rel="stylesheet" href="style-pages.css">
 </head>
 <body>
-    <nav>
-        <div class="container">
-            <div class="nav-content">
-                <a href="index.html" class="logo">Brandon Antezana</a>
-                <ul class="nav-links">
-                    <li><a href="index.html#work">Case Studies</a></li>
-                    <li><a href="about.html" aria-current="page">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-nav">
+        <nav class="nav-inner" aria-label="Primary">
+            <a href="index.html" class="logo">Brandon Antezana</a>
+            <ul class="nav-links">
+                <li><a href="index.html#work">Work</a></li>
+                <li><a href="about.html" aria-current="page">About</a></li>
+                <li><a href="contact.html" class="nav-cta">Let's talk</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
 
     <section class="page-hero">
         <div class="container page-hero-grid">
@@ -32,11 +36,42 @@
                     <span class="line rotator"><span class="rotator-word">Product Developer</span></span>
                     <span class="line">still solving problems the same way</span>
                 </h1>
-                <p class="subtitle">I'm a product designer with an engineering background, which lets me evaluate a design's technical longevity, not just its usability. I use that lens on the problems most portfolios skip: the person grieving, the neighbor who's tuned out of local government, the mind that processes the world differently.</p>
+                <p class="subtitle">I'm a product designer with an engineering background, so I look at whether a design will hold up technically, not only whether it's usable. I've used that on a physical product I'm bringing to market, on a live event website, and on problems most portfolios skip: the person grieving, the neighbor who's tuned out of local government, the mind that processes the world differently.</p>
             </div>
             <figure class="about-portrait">
                 <img src="images/ProfilePicture.jpg" alt="Illustrated portrait of Brandon Antezana">
             </figure>
+        </div>
+    </section>
+
+
+    <section class="experience">
+        <div class="container">
+            <h2 class="block-title">Selected experience</h2>
+            <p class="block-intro">Physical products, the web, and research-led UX.</p>
+            <ul class="exp-list">
+                <li class="exp-item">
+                    <span class="label">Physical product</span>
+                    <h3>Founding Associate</h3>
+                    <p class="exp-org">TPZ Ventures Launch · SENKŌ</p>
+                    <p>I'm taking my own consumer product from concept to pre-launch, covering research, product definition, CMF, brand, the Shopify site and the reservation funnel. I also contributed to cohort products including Bible Clock and Terrix.</p>
+                    <a href="senko.html" class="text-link">SENKŌ case study →</a>
+                </li>
+                <li class="exp-item">
+                    <span class="label">Web</span>
+                    <h3>Web Design Lead</h3>
+                    <p class="exp-org">FastForge 2026 · The Possible Zone</p>
+                    <p>I led the design and helped build the official site for The Possible Zone's high school hackathon at the Museum of Science, Boston. It serves students, families and sponsors.</p>
+                    <a href="https://fastforge.boston/" class="text-link">fastforge.boston ↗</a>
+                </li>
+                <li class="exp-item">
+                    <span class="label">UX &amp; research</span>
+                    <h3>Product Designer</h3>
+                    <p class="exp-org">Case studies</p>
+                    <p>End-to-end, research-led product design for AI-native, civic and accessibility products: Grief Companion, Civic and Sensory.</p>
+                    <a href="index.html#work" class="text-link">View case studies →</a>
+                </li>
+            </ul>
         </div>
     </section>
 
@@ -86,6 +121,7 @@
                         <div class="tag-list">
                             <span class="tag">Design Strategy</span>
                             <span class="tag">Product Design</span>
+                            <span class="tag">Physical Product Design</span>
                             <span class="tag">Accessibility</span>
                             <span class="tag">UX Research</span>
                             <span class="tag">Systems Thinking</span>
@@ -94,8 +130,8 @@
                     </div>
                     <div class="sidebar-card">
                         <h3>Let's work together</h3>
-                        <p style="font-size:0.9375rem;color:var(--muted);margin-bottom:1.25rem;">Open to product design roles and select freelance projects.</p>
-                        <a href="contact.html" class="cta-link">Get in touch →</a>
+                        <p>Open to product design roles and select freelance projects.</p>
+                        <a href="contact.html" class="btn btn-primary">Get in touch →</a>
                     </div>
                 </aside>
             </div>
@@ -104,8 +140,8 @@
 
     <section class="skills-body">
         <div class="container">
-            <h2>Skills &amp; Tools</h2>
-            <p class="skills-intro">The working toolkit behind my product design and project management work.</p>
+            <h2 class="block-title">Skills &amp; tools</h2>
+            <p class="block-intro">The working toolkit behind my product design and project management work.</p>
 
             <div class="skills-grid">
                 <div class="skill-group">
@@ -234,13 +270,26 @@
         </div>
     </section>
 
-    <footer>
-        <div class="container">
-            <p>© 2026 Brandon Antezana, designed with purpose, crafted with empathy.</p>
-            <p>bantezana1@gmail.com &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/brandon-a-775408137">LinkedIn</a></p>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div>
+                <p class="footer-name">Brandon Antezana</p>
+                <p class="footer-note">Product designer for screens, objects, and the systems between them.</p>
+            </div>
+            <ul class="footer-links">
+                <li><a href="mailto:bantezana1@gmail.com">bantezana1@gmail.com</a></li>
+                <li><a href="https://www.linkedin.com/in/brandon-a-775408137">LinkedIn ↗</a></li>
+            </ul>
+        </div>
+        <div class="footer-inner footer-meta">
+            <p>© 2026 Brandon Antezana</p>
+            <p>Designed with purpose, crafted with empathy.</p>
         </div>
     </footer>
 
+    <script src="site.js"></script>
     <script>
         (function () {
             const titles = ['Product Developer', 'UI/UX Designer', 'Design Strategist', 'Creative Leader', 'Project Manager', 'Problem Solver'];

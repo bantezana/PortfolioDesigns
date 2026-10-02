@@ -4,133 +4,141 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brandon Antezana | Product Designer</title>
-    <link rel="stylesheet" href="style-home.css">
+    <meta name="description" content="Brandon Antezana is an engineer turned product designer working across physical products and digital experiences. Founder of SENKŌ.">
+    <meta property="og:title" content="Brandon Antezana | Product Designer">
+    <meta property="og:description" content="Product designer working on screens and on objects you hold. Founder of SENKŌ, plus UX case studies in AI, civic tech, and accessibility.">
+    <script>document.documentElement.classList.add('js');</script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,500;0,600;0,700;1,600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style-base.css">
+    <link rel="stylesheet" href="style-home.css">
 </head>
 <body>
-    <nav>
-        <div class="container">
-            <div class="nav-content">
-                <a href="index.html" class="logo">Brandon Antezana</a>
-                <ul class="nav-links">
-                    <li><a href="#work">Case Studies</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <a class="skip-link" href="#main">Skip to main content</a>
 
-    <section class="hero">
-        <div class="container">
-            <h1>Engineer turned designer, crafting experiences for the <em>overlooked</em></h1>
-            <p class="subtitle">I design thoughtful solutions for complex human problems, specializing in emerging technology and accessibility.</p>
-        </div>
-    </section>
+    <header class="site-nav">
+        <nav class="nav-inner" aria-label="Primary">
+            <a href="index.html" class="logo">Brandon Antezana</a>
+            <ul class="nav-links">
+                <li><a href="#work" aria-current="page">Work</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="nav-cta">Let's talk</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <section id="work" class="container">
-        <div class="section-label">Case Studies</div>
+    <main id="main">
+        <section class="intro wrap">
+            <h1>Engineer turned product designer, building for screens <span>and the physical world.</span></h1>
+        </section>
 
-        <a href="grief-companion.html" class="project-row featured">
-            <div>
-                <span class="featured-badge">Flagship · AI-Native</span>
-                <h3 class="project-title">Grief Companion</h3>
-                <p class="project-subtitle">AI-powered mobile app providing compassionate support for people navigating loss and bereavement</p>
-                <div class="project-stats">
-                    <div class="stat">
-                        <strong>87%</strong>
-                        <span>felt supported</span>
-                    </div>
-                    <div class="stat">
-                        <strong>9</strong>
-                        <span>interviews</span>
-                    </div>
-                    <div class="stat">
-                        <strong>6 weeks</strong>
-                        <span>timeline</span>
-                    </div>
+        <section id="work" class="work wrap" aria-label="Selected work">
+            <!-- Physical product -->
+            <a href="senko.html" class="senko-card reveal">
+                <div class="senko-media">
+                    <img src="images/work/senko-hero.jpg" alt="SENKŌ carousel ballpoint pen in matte black with rose gold accents">
                 </div>
-            </div>
-            <div class="project-image">
-                <img src="images/GriefCompanion-hero-v3.png" alt="Grief Companion app screenshot">
-            </div>
-        </a>
-
-        <a href="civic.html" class="project-row">
-            <div>
-                <h3 class="project-title">Civic</h3>
-                <p class="project-subtitle">Platform making local government information accessible and actionable for everyday residents</p>
-                <div class="project-stats">
-                    <div class="stat">
-                        <strong>73%</strong>
-                        <span>engagement increase</span>
-                    </div>
-                    <div class="stat">
-                        <strong>11</strong>
-                        <span>user tests</span>
-                    </div>
-                    <div class="stat">
-                        <strong>8 weeks</strong>
-                        <span>timeline</span>
-                    </div>
+                <div class="senko-body">
+                    <p class="label on-dark-label">Physical product · In progress</p>
+                    <h2 class="senko-name">SENKŌ</h2>
+                    <p class="senko-desc">A precision carousel pen with three line weights in one metal body. I'm taking it from concept to Kickstarter as founder and product lead.</p>
+                    <ul class="spec-row" aria-label="Key specs">
+                        <li><strong>3</strong><span>tip weights</span></li>
+                        <li><strong>&lt;3s</strong><span>one-handed switch</span></li>
+                        <li><strong>$149+</strong><span>premium build</span></li>
+                    </ul>
+                    <span class="card-link">Read the case study <span aria-hidden="true">→</span></span>
                 </div>
-            </div>
-            <div class="project-image">
-                <img src="images/Civic-hero-v3.png" alt="Civic app screenshot">
-            </div>
-        </a>
-
-        <a href="sensory.html" class="project-row">
-            <div>
-                <h3 class="project-title">Sensory</h3>
-                <p class="project-subtitle">AR mobile app helping neurodiverse individuals navigate and manage overwhelming sensory environments</p>
-                <div class="project-stats">
-                    <div class="stat">
-                        <strong>92%</strong>
-                        <span>reduced anxiety</span>
-                    </div>
-                    <div class="stat">
-                        <strong>8</strong>
-                        <span>participants</span>
-                    </div>
-                    <div class="stat">
-                        <strong>7 weeks</strong>
-                        <span>timeline</span>
-                    </div>
-                </div>
-            </div>
-            <div class="project-image">
-                <img src="images/Sensory-hero-v3.png" alt="Sensory app illustration">
-            </div>
-        </a>
-    </section>
-
-    <section id="ai-playground" class="container ai-playground">
-        <div class="section-label">AI Playground</div>
-        <p class="playground-intro">Where my engineering background meets emerging tech: experiments and deep-dives in designing with, and for, AI.</p>
-        <div class="playground-grid">
-            <a href="grief-companion.html" class="playground-card">
-                <span class="playground-tag">Conversational AI Design</span>
-                <p>Designing an AI companion's voice for people in grief, covering validation-first responses, choice-offering, and zero toxic positivity.</p>
             </a>
-            <a href="grief-companion.html" class="playground-card">
-                <span class="playground-tag">Prompt &amp; Tone Design</span>
-                <p>20+ rewrites of AI responses and journaling prompts, tuned with grief counselors so the model meets users where they are.</p>
-            </a>
-            <a href="grief-companion.html" class="playground-card">
-                <span class="playground-tag">AI Safety in a Sensitive Domain</span>
-                <p>Crisis-language detection with human handoff, transparency about AI limits, and guardrails against prolonging unhealthy grief.</p>
-            </a>
-        </div>
-    </section>
 
-    <footer>
-        <div class="container">
-            <p>© 2026 Brandon Antezana, designed with purpose, crafted with empathy.</p>
-            <p>bantezana1@gmail.com &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/brandon-a-775408137">LinkedIn</a></p>
+            <!-- Design case studies -->
+            <div class="case-grid">
+                <a href="grief-companion.html" class="case-card reveal">
+                    <div class="case-media" style="--tint:#3a1f2e">
+                        <img src="images/GriefCompanion-hero-v3.png" alt="Grief Companion app: an AI check-in conversation over the memory vault" loading="lazy">
+                    </div>
+                    <div class="case-body">
+                        <p class="label">AI-native app</p>
+                        <h3 class="case-title">Grief Companion</h3>
+                        <p class="case-desc">An AI companion for people going through loss, available at 3am when no one else is.</p>
+                        <span class="card-link">View project <span aria-hidden="true">→</span></span>
+                    </div>
+                </a>
+
+                <a href="civic.html" class="case-card reveal">
+                    <div class="case-media" style="--tint:#1d2d44">
+                        <img src="images/Civic-hero-v3.png" alt="Civic platform screens showing a neighborhood dashboard" loading="lazy">
+                    </div>
+                    <div class="case-body">
+                        <p class="label">Civic tech</p>
+                        <h3 class="case-title">Civic</h3>
+                        <p class="case-desc">Turning local government information into something residents can read and act on.</p>
+                        <span class="card-link">View project <span aria-hidden="true">→</span></span>
+                    </div>
+                </a>
+
+                <a href="sensory.html" class="case-card reveal">
+                    <div class="case-media" style="--tint:#472a0d">
+                        <img src="images/Sensory-hero-v3.png" alt="Sensory AR app concept for navigating overwhelming environments" loading="lazy">
+                    </div>
+                    <div class="case-body">
+                        <p class="label">Accessibility · AR</p>
+                        <h3 class="case-title">Sensory</h3>
+                        <p class="case-desc">An AR app that helps neurodiverse people handle overwhelming sensory environments.</p>
+                        <span class="card-link">View project <span aria-hidden="true">→</span></span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Also worked on -->
+        <section class="also wrap" aria-labelledby="also-title">
+            <h2 id="also-title" class="label">Also worked on</h2>
+            <ul class="also-list">
+                <li>
+                    <a href="https://fastforge.boston/" class="also-item">
+                        <img src="images/work/fastforge-logo.png" alt="" class="also-logo">
+                        <span><strong>FastForge 2026</strong> Web design lead for the hackathon site</span>
+                        <span class="also-arrow" aria-hidden="true">↗</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://bibleclock.com/" class="also-item">
+                        <img src="images/work/bibleclock-logo.png" alt="" class="also-logo also-logo-wide">
+                        <span><strong>Bible Clock</strong> TPZ Ventures cohort product</span>
+                        <span class="also-arrow" aria-hidden="true">↗</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://terrixtech.com/" class="also-item">
+                        <img src="images/work/terrix-logo.svg" alt="" class="also-logo also-logo-wide">
+                        <span><strong>Terrix</strong> TPZ Ventures cohort product</span>
+                        <span class="also-arrow" aria-hidden="true">↗</span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="cta wrap" aria-labelledby="cta-title">
+            <h2 id="cta-title">Let's build something.</h2>
+            <div class="cta-links">
+                <a href="mailto:bantezana1@gmail.com" class="btn btn-primary">Email me</a>
+                <a href="https://www.linkedin.com/in/brandon-a-775408137" class="btn btn-ghost">LinkedIn <span aria-hidden="true">↗</span></a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <p class="footer-note">© 2026 Brandon Antezana</p>
+            <ul class="footer-links">
+                <li><a href="mailto:bantezana1@gmail.com">bantezana1@gmail.com</a></li>
+                <li><a href="https://www.linkedin.com/in/brandon-a-775408137">LinkedIn ↗</a></li>
+            </ul>
         </div>
     </footer>
+
+    <script src="site.js"></script>
 </body>
 </html>
