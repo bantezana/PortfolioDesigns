@@ -2,17 +2,17 @@
 
 /* ---------- Intro ---------- */
 .intro {
-    padding-top: clamp(3rem, 7vw, 5.5rem);
-    padding-bottom: clamp(2.25rem, 4vw, 3.25rem);
+    padding-top: clamp(4rem, 9vw, 7rem);
+    padding-bottom: clamp(3rem, 5vw, 4.5rem);
 }
 
 .intro h1 {
     font-family: var(--font-display);
-    font-weight: 600;
-    font-size: clamp(2.25rem, 5vw, 4rem);
-    line-height: 1.05;
-    letter-spacing: -0.035em;
-    max-width: 20ch;
+    font-weight: 700;
+    font-size: clamp(2.75rem, 7vw, 6rem);
+    line-height: 0.97;
+    letter-spacing: -0.04em;
+    max-width: 18ch;
     text-wrap: balance;
 }
 
@@ -23,15 +23,18 @@
 /* ---------- Work ---------- */
 .work {
     display: grid;
-    gap: 1.25rem;
-    padding-bottom: 4.5rem;
+    gap: 1.5rem;
+    padding-bottom: 5rem;
 }
 
 .card-link {
     margin-top: auto;
     font-weight: 600;
-    font-size: 0.9375rem;
-    transition: color 0.2s;
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    transition: color 0.2s, gap 0.2s;
 }
 
 /* Senkō feature card */
@@ -43,12 +46,11 @@
     background: var(--dark);
     color: #eeeae4;
     text-decoration: none;
-    transition: transform 0.4s var(--ease), box-shadow 0.4s var(--ease);
+    transition: transform 0.4s var(--ease);
 }
 
 .senko-card:hover {
-    transform: translateY(-4px);
-    box-shadow: var(--shadow);
+    transform: translateY(-3px);
 }
 
 .senko-media {
@@ -73,27 +75,36 @@
     padding: clamp(1.75rem, 3.5vw, 2.75rem);
 }
 
-.on-dark-label {
-    color: var(--rose);
-}
-
+/* Name first, then label — not an eyebrow */
 .senko-name {
+    order: 1;
     font-family: var(--font-display);
-    font-weight: 600;
-    font-size: clamp(2.5rem, 5vw, 3.5rem);
+    font-weight: 700;
+    font-size: clamp(2.5rem, 4.5vw, 3.5rem);
     line-height: 1;
-    letter-spacing: -0.035em;
-    margin: 0.75rem 0 0.9rem;
+    letter-spacing: -0.04em;
+    margin: 0 0 0.5rem;
     color: #fff;
 }
 
+.on-dark-label {
+    order: 2;
+    color: var(--rose);
+    font-size: 0.8125rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
 .senko-desc {
+    order: 3;
     color: #b9b4ab;
     font-size: 1rem;
-    margin-bottom: 1.75rem;
+    line-height: 1.55;
+    margin-bottom: 2rem;
 }
 
 .spec-row {
+    order: 4;
     list-style: none;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -102,16 +113,16 @@
 }
 
 .spec-row li {
-    border-top: 1px solid rgba(217, 162, 126, 0.5);
+    border-top: 1px solid rgba(217, 162, 126, 0.28);
     padding-top: 0.75rem;
 }
 
 .spec-row strong {
     display: block;
     font-family: var(--font-display);
-    font-weight: 600;
-    font-size: 1.5rem;
-    letter-spacing: -0.02em;
+    font-weight: 700;
+    font-size: 2.25rem;
+    letter-spacing: -0.03em;
     color: #fff;
 }
 
@@ -121,39 +132,50 @@
 }
 
 .senko-card .card-link {
+    order: 5;
     color: var(--rose);
 }
 
 .senko-card:hover .card-link {
     color: #f0c3a4;
+    gap: 0.7rem;
 }
 
-/* Case study cards */
+/* Case study cards — horizontal alternating layout */
 .case-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
 }
 
 .case-card {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1.15fr 1fr;
+    min-height: 340px;
     background: var(--surface);
-    border: 1px solid var(--line);
     border-radius: var(--radius);
     overflow: hidden;
     text-decoration: none;
-    transition: transform 0.4s var(--ease), box-shadow 0.4s var(--ease), border-color 0.3s;
+    transition: transform 0.4s var(--ease);
 }
 
 .case-card:hover {
-    transform: translateY(-4px);
-    box-shadow: var(--shadow);
-    border-color: var(--line-strong);
+    transform: translateY(-3px);
+}
+
+.case-card:nth-child(even) {
+    grid-template-columns: 1fr 1.15fr;
+}
+
+.case-card:nth-child(even) .case-media {
+    order: 2;
+}
+
+.case-card:nth-child(even) .case-body {
+    order: 1;
 }
 
 .case-media {
-    aspect-ratio: 16 / 10;
     background: var(--tint, var(--dark-2));
     overflow: hidden;
 }
@@ -166,33 +188,48 @@
 }
 
 .case-card:hover .case-media img {
-    transform: scale(1.035);
+    transform: scale(1.03);
 }
 
 .case-body {
     display: flex;
     flex-direction: column;
-    flex: 1;
-    padding: 1.4rem 1.5rem 1.5rem;
+    justify-content: center;
+    padding: 2.5rem 3rem;
 }
 
+/* Title first, then category label — not an eyebrow */
 .case-title {
+    order: 1;
     font-family: var(--font-display);
-    font-weight: 600;
-    font-size: 1.625rem;
-    letter-spacing: -0.03em;
-    line-height: 1.1;
-    margin: 0.4rem 0 0.5rem;
+    font-weight: 700;
+    font-size: clamp(1.625rem, 2.5vw, 2.25rem);
+    letter-spacing: -0.035em;
+    line-height: 1.05;
+    margin: 0 0 0.6rem;
+}
+
+.case-body .label {
+    order: 2;
+    margin-bottom: 0.6rem;
 }
 
 .case-desc {
+    order: 3;
     color: var(--muted);
-    font-size: 0.9375rem;
-    margin-bottom: 1.25rem;
+    font-size: 1rem;
+    line-height: 1.55;
+    margin-bottom: 1.5rem;
+    max-width: 36ch;
+}
+
+.case-card .card-link {
+    order: 4;
 }
 
 .case-card:hover .card-link {
     color: var(--accent);
+    gap: 0.7rem;
 }
 
 /* ---------- Also worked on ---------- */
@@ -201,53 +238,59 @@
 }
 
 .also .label {
-    margin-bottom: 1rem;
+    margin-bottom: 1.25rem;
+    display: block;
 }
 
 .also-list {
     list-style: none;
-    border-top: 1px solid var(--line);
 }
 
 .also-item {
     display: grid;
-    grid-template-columns: 130px 1fr auto;
+    grid-template-columns: 120px 1fr auto;
     align-items: center;
     gap: 1.25rem;
-    padding: 1.1rem 0.25rem;
-    border-bottom: 1px solid var(--line);
+    padding: 0.875rem 0.75rem;
+    border-radius: var(--radius-sm);
+    margin-inline: -0.75rem;
     text-decoration: none;
     color: var(--muted);
-    font-size: 0.9375rem;
+    font-size: 1rem;
     transition: color 0.2s, background 0.2s;
 }
 
 .also-item strong {
     color: var(--ink);
     font-weight: 600;
-    margin-right: 0.5rem;
+    margin-right: 0.35rem;
 }
 
 .also-logo {
-    height: 34px;
+    height: 26px;
     width: auto;
-    filter: grayscale(1);
-    opacity: 0.7;
-    transition: filter 0.3s, opacity 0.3s;
+    filter: brightness(0) invert(1);
+    opacity: 0.45;
+    transition: opacity 0.3s;
 }
 
 .also-logo-wide {
-    height: 18px;
+    height: 15px;
 }
 
 .also-arrow {
-    color: var(--ink);
-    transition: transform 0.2s;
+    color: var(--muted);
+    transition: transform 0.2s, color 0.2s;
+    font-size: 1rem;
+}
+
+.also-item:hover {
+    background: var(--surface);
+    color: var(--ink-2);
 }
 
 .also-item:hover .also-logo {
-    filter: none;
-    opacity: 1;
+    opacity: 0.85;
 }
 
 .also-item:hover .also-arrow {
@@ -262,14 +305,14 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 1.5rem;
-    padding-block: 1rem 1.5rem;
+    padding-block: 4rem;
 }
 
 .cta h2 {
     font-family: var(--font-display);
-    font-weight: 600;
-    font-size: clamp(1.75rem, 3.5vw, 2.5rem);
-    letter-spacing: -0.035em;
+    font-weight: 700;
+    font-size: clamp(2.5rem, 4.5vw, 3.5rem);
+    letter-spacing: -0.04em;
 }
 
 .cta-links {
@@ -289,21 +332,43 @@
         aspect-ratio: 16 / 10;
     }
 
-    .case-grid {
-        grid-template-columns: 1fr 1fr;
+    .case-card,
+    .case-card:nth-child(even) {
+        grid-template-columns: 1fr;
+        min-height: 0;
+    }
+
+    .case-card:nth-child(even) .case-media {
+        order: 0;
+    }
+
+    .case-card:nth-child(even) .case-body {
+        order: 0;
+    }
+
+    .case-media {
+        aspect-ratio: 16 / 9;
+    }
+
+    .case-body {
+        padding: 1.75rem 2rem;
     }
 }
 
 @media (max-width: 640px) {
-    .case-grid {
-        grid-template-columns: 1fr;
-    }
-
     .also-item {
         grid-template-columns: 1fr auto;
     }
 
     .also-logo {
         display: none;
+    }
+
+    .case-body {
+        padding: 1.5rem;
+    }
+
+    .case-title {
+        font-size: 1.5rem;
     }
 }

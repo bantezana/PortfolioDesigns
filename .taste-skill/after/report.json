@@ -1,0 +1,2040 @@
+{
+ "url": "/Users/brandonantezana/Desktop/PortfolioDesigns/index.html",
+ "at": "2026-10-23T15:12:01.755Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.52,
+    0.77,
+    0.42,
+    0.38
+   ],
+   "motion": {
+    "elements": 21,
+    "css": 0,
+    "transitions": 21,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 2946,
+     "screens": 3.3,
+     "words": 164,
+     "img": 7,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "senko-hero.jpg",
+      "GriefCompanion-hero-v3.png",
+      "Civic-hero-v3.png",
+      "Sensory-hero-v3.png"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Engineer turned product designer, building for screens and the physical world.",
+     "words": 11,
+     "chars": 78,
+     "lines": 4,
+     "size": 96,
+     "vw": 6.7,
+     "font": "Inter Tight",
+     "weight": 700,
+     "tracking": -0.04,
+     "leading": 0.97,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.78,
+     "top": 184,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Engineer turned product designer, building for screens and the physical world.",
+     "words": 11,
+     "lines": 4,
+     "size": 96,
+     "font": "Inter Tight"
+    },
+    "headings": [
+     {
+      "text": "Engineer turned product designer, building for screens and the physical world.",
+      "words": 11,
+      "chars": 78,
+      "lines": 4,
+      "size": 96,
+      "vw": 6.7,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 0.97,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.78,
+      "top": 184,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "SENKŌ",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.27,
+      "top": 672,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "3",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.08,
+      "top": 893,
+      "tag": "strong",
+      "kind": "statement"
+     },
+     {
+      "text": "<3s",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.08,
+      "top": 893,
+      "tag": "strong",
+      "kind": "statement"
+     },
+     {
+      "text": "$149+",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.08,
+      "top": 893,
+      "tag": "strong",
+      "kind": "statement"
+     },
+     {
+      "text": "Grief Companion",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.3,
+      "top": 1141,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Civic",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.3,
+      "top": 1518,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Sensory",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.3,
+      "top": 1894,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Let's build something.",
+      "words": 3,
+      "chars": 22,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.36,
+      "top": 2647,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 4,
+     "over2Lines": 1,
+     "statements": 3,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Inter",
+       "share": 0.85,
+       "mono": false
+      },
+      {
+       "family": "Inter Tight",
+       "share": 0.15,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      16,
+      36,
+      56,
+      96
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "Inter",
+      "size": 16,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8.5
+     },
+     "measureChars": 49,
+     "max": {
+      "size": 96,
+      "vw": 6.7,
+      "font": "Inter Tight",
+      "text": "Engineer turned product designer, buildi"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0f0f0d",
+     "bodyBgHsl": {
+      "h": 60,
+      "s": 0.07,
+      "l": 0.05
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#1a1917",
+       "top": 628,
+       "hsl": {
+        "h": 40,
+        "s": 0.06,
+        "l": 0.1
+       }
+      },
+      {
+       "color": "#181714",
+       "top": 1101,
+       "hsl": {
+        "h": 45,
+        "s": 0.09,
+        "l": 0.09
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#8e8a83",
+       "share": 0.47
+      },
+      {
+       "color": "#f0ede6",
+       "share": 0.21
+      },
+      {
+       "color": "#b9b4ab",
+       "share": 0.14
+      },
+      {
+       "color": "#c8a452",
+       "share": 0.05
+      },
+      {
+       "color": "#a7a29a",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#5594ff",
+      "hsl": {
+       "h": 218,
+       "s": 1,
+       "l": 0.67
+      },
+      "fg": "#0f0f0d"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 2,
+     "radius": 4,
+     "height": 56,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to main content",
+      "Let's talk"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 4,
+     "boxRadius": 8,
+     "squareMedia": 0,
+     "roundedMedia": 4,
+     "mediaRadius": 8,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 1101
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.13
+     }
+    ],
+    "nav": {
+     "links": 4,
+     "fixed": true,
+     "height": 72,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "inter",
+     "inter tight"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 2946,
+    "margins": {
+     "left": 160,
+     "right": 174
+    },
+    "sections": [
+     {
+      "sel": "section.intro.wrap",
+      "tag": "section",
+      "top": 72,
+      "height": 556,
+      "words": 12,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Engineer turned product designer, building for scr",
+       "size": 96,
+       "tag": "h1"
+      },
+      "left": 160,
+      "right": 350,
+      "textLeft": 160,
+      "textRight": 350,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "a.senko-card.reveal",
+      "tag": "a",
+      "top": 628,
+      "height": 449,
+      "words": 42,
+      "media": 1,
+      "middle": 44,
+      "heading": {
+       "text": "SENKŌ",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 160,
+      "right": 214,
+      "textLeft": 847,
+      "textRight": 214,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.case-grid",
+      "tag": "div",
+      "top": 1101,
+      "height": 1127,
+      "words": 57,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "Grief Companion",
+       "size": 36,
+       "tag": "h3"
+      },
+      "left": 160,
+      "right": 160,
+      "textLeft": 208,
+      "textRight": 272,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.also.wrap",
+      "tag": "section",
+      "top": 2309,
+      "height": 274,
+      "words": 23,
+      "media": 0,
+      "middle": 44,
+      "heading": {
+       "text": "Also worked on",
+       "size": 13,
+       "tag": "h2"
+      },
+      "left": 160,
+      "right": 713,
+      "textLeft": 160,
+      "textRight": 713,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.cta.wrap",
+      "tag": "section",
+      "top": 2583,
+      "height": 218,
+      "words": 6,
+      "media": 0,
+      "middle": 354,
+      "heading": {
+       "text": "Let's build something.",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 160,
+      "right": 207,
+      "textLeft": 160,
+      "textRight": 207,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Engineer turned product designer, building for screens and the physical world.",
+      "size": 96,
+      "top": 184,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 807,
+      "n": 4
+     },
+     {
+      "x": 160,
+      "n": 3
+     },
+     {
+      "x": 208,
+      "n": 2
+     },
+     {
+      "x": 847,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 11,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0.14,
+    "voidBox": {
+     "x": 1140,
+     "y": 120,
+     "w": 300,
+     "h": 600
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.7,
+    0.92,
+    0.92,
+    0.53
+   ],
+   "motion": {
+    "elements": 21,
+    "css": 0,
+    "transitions": 21,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 3795,
+     "screens": 3.7,
+     "words": 164,
+     "img": 7,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "senko-hero.jpg",
+      "GriefCompanion-hero-v3.png",
+      "Civic-hero-v3.png",
+      "Sensory-hero-v3.png"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Engineer turned product designer, building for screens and the physical world.",
+     "words": 11,
+     "chars": 78,
+     "lines": 4,
+     "size": 53.8,
+     "vw": 7,
+     "font": "Inter Tight",
+     "weight": 700,
+     "tracking": -0.04,
+     "leading": 0.97,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.83,
+     "top": 141,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Engineer turned product designer, building for screens and the physical world.",
+     "words": 11,
+     "lines": 4,
+     "size": 53.8,
+     "font": "Inter Tight"
+    },
+    "headings": [
+     {
+      "text": "Engineer turned product designer, building for screens and the physical world.",
+      "words": 11,
+      "chars": 78,
+      "lines": 4,
+      "size": 53.8,
+      "vw": 7,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 0.97,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.83,
+      "top": 141,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "SENKŌ",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.85,
+      "top": 867,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "3",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.27,
+      "top": 1047,
+      "tag": "strong",
+      "kind": "statement"
+     },
+     {
+      "text": "<3s",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.27,
+      "top": 1047,
+      "tag": "strong",
+      "kind": "statement"
+     },
+     {
+      "text": "$149+",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.27,
+      "top": 1047,
+      "tag": "strong",
+      "kind": "statement"
+     },
+     {
+      "text": "Grief Companion",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.84,
+      "top": 1665,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Civic",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.84,
+      "top": 2287,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Sensory",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.84,
+      "top": 2909,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Let's build something.",
+      "words": 3,
+      "chars": 22,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.49,
+      "top": 3521,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 4,
+     "over2Lines": 1,
+     "statements": 3,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Inter",
+       "share": 0.85,
+       "mono": false
+      },
+      {
+       "family": "Inter Tight",
+       "share": 0.15,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      16,
+      26,
+      36,
+      40,
+      54
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "Inter",
+      "size": 16,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8.5
+     },
+     "measureChars": 81,
+     "max": {
+      "size": 53.8,
+      "vw": 7,
+      "font": "Inter Tight",
+      "text": "Engineer turned product designer, buildi"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0f0f0d",
+     "bodyBgHsl": {
+      "h": 60,
+      "s": 0.07,
+      "l": 0.05
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#1a1917",
+       "top": 398,
+       "hsl": {
+        "h": 40,
+        "s": 0.06,
+        "l": 0.1
+       }
+      },
+      {
+       "color": "#181714",
+       "top": 1239,
+       "hsl": {
+        "h": 45,
+        "s": 0.09,
+        "l": 0.09
+       }
+      },
+      {
+       "color": "#3a1f2e",
+       "top": 1239,
+       "hsl": {
+        "h": 327,
+        "s": 0.3,
+        "l": 0.17
+       }
+      },
+      {
+       "color": "#1d2d44",
+       "top": 1861,
+       "hsl": {
+        "h": 215,
+        "s": 0.4,
+        "l": 0.19
+       }
+      },
+      {
+       "color": "#472a0d",
+       "top": 2483,
+       "hsl": {
+        "h": 30,
+        "s": 0.69,
+        "l": 0.16
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#8e8a83",
+       "share": 0.47
+      },
+      {
+       "color": "#f0ede6",
+       "share": 0.21
+      },
+      {
+       "color": "#b9b4ab",
+       "share": 0.14
+      },
+      {
+       "color": "#c8a452",
+       "share": 0.05
+      },
+      {
+       "color": "#a7a29a",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#5594ff",
+      "hsl": {
+       "h": 218,
+       "s": 1,
+       "l": 0.67
+      },
+      "fg": "#0f0f0d"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 2,
+     "radius": 4,
+     "height": 56,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to main content",
+      "Let's talk"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 4,
+     "boxRadius": 8,
+     "squareMedia": 0,
+     "roundedMedia": 4,
+     "mediaRadius": 8,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 1034
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.4
+     }
+    ],
+    "nav": {
+     "links": 4,
+     "fixed": true,
+     "height": 72,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "inter",
+     "inter tight"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 3795,
+    "margins": {
+     "left": 31,
+     "right": 31
+    },
+    "sections": [
+     {
+      "sel": "section.intro.wrap",
+      "tag": "section",
+      "top": 72,
+      "height": 326,
+      "words": 12,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Engineer turned product designer, building for scr",
+       "size": 54,
+       "tag": "h1"
+      },
+      "left": 31,
+      "right": 217,
+      "textLeft": 31,
+      "textRight": 217,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "a.senko-card.reveal",
+      "tag": "a",
+      "top": 398,
+      "height": 818,
+      "words": 18,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "SENKŌ",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 59,
+      "textRight": 164,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "a.case-card.reveal",
+      "tag": "a",
+      "top": 1239,
+      "height": 620,
+      "words": 21,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Grief Companion",
+       "size": 26,
+       "tag": "h3"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 63,
+      "textRight": 345,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "a.case-card.reveal",
+      "tag": "a",
+      "top": 1861,
+      "height": 620,
+      "words": 16,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Civic",
+       "size": 26,
+       "tag": "h3"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 63,
+      "textRight": 390,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "a.case-card.reveal",
+      "tag": "a",
+      "top": 2483,
+      "height": 620,
+      "words": 20,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Sensory",
+       "size": 26,
+       "tag": "h3"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 63,
+      "textRight": 367,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.also.wrap",
+      "tag": "section",
+      "top": 3183,
+      "height": 274,
+      "words": 23,
+      "media": 0,
+      "middle": 44,
+      "heading": {
+       "text": "Also worked on",
+       "size": 13,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 171,
+      "textLeft": 31,
+      "textRight": 171,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.cta.wrap",
+      "tag": "section",
+      "top": 3457,
+      "height": 192,
+      "words": 6,
+      "media": 0,
+      "middle": 90,
+      "heading": {
+       "text": "Let's build something.",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 78,
+      "textLeft": 31,
+      "textRight": 78,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Engineer turned product designer, building for screens and the physical world.",
+      "size": 54,
+      "top": 141,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 59,
+      "n": 7
+     },
+     {
+      "x": 31,
+      "n": 3
+     }
+    ],
+    "leftBlocks": 10,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.71,
+    0.87,
+    0.81,
+    0.42
+   ],
+   "motion": {
+    "elements": 21,
+    "css": 0,
+    "transitions": 21,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 3323,
+     "screens": 3.9,
+     "words": 164,
+     "img": 7,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "senko-hero.jpg",
+      "GriefCompanion-hero-v3.png",
+      "Civic-hero-v3.png",
+      "Sensory-hero-v3.png"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Engineer turned product designer, building for screens and the physical world.",
+     "words": 11,
+     "chars": 78,
+     "lines": 5,
+     "size": 44,
+     "vw": 11.3,
+     "font": "Inter Tight",
+     "weight": 700,
+     "tracking": -0.04,
+     "leading": 0.97,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 157,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Engineer turned product designer, building for screens and the physical world.",
+     "words": 11,
+     "lines": 5,
+     "size": 44,
+     "font": "Inter Tight"
+    },
+    "headings": [
+     {
+      "text": "Engineer turned product designer, building for screens and the physical world.",
+      "words": 11,
+      "chars": 78,
+      "lines": 5,
+      "size": 44,
+      "vw": 11.3,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 0.97,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 157,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "SENKŌ",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 665,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "3",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.21,
+      "top": 894,
+      "tag": "strong",
+      "kind": "statement"
+     },
+     {
+      "text": "<3s",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.21,
+      "top": 894,
+      "tag": "strong",
+      "kind": "statement"
+     },
+     {
+      "text": "$149+",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.26,
+      "top": 894,
+      "tag": "strong",
+      "kind": "statement"
+     },
+     {
+      "text": "Grief Companion",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 1333,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Civic",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 1769,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Sensory",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 2205,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Let's build something.",
+      "words": 3,
+      "chars": 22,
+      "lines": 2,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2861,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 5,
+     "over2Lines": 1,
+     "statements": 3,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Inter",
+       "share": 0.85,
+       "mono": false
+      },
+      {
+       "family": "Inter Tight",
+       "share": 0.15,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      14,
+      16,
+      24,
+      36,
+      40,
+      44
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": {
+      "font": "Inter",
+      "size": 16,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8.5
+     },
+     "measureChars": 37,
+     "max": {
+      "size": 44,
+      "vw": 11.3,
+      "font": "Inter Tight",
+      "text": "Engineer turned product designer, buildi"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0f0f0d",
+     "bodyBgHsl": {
+      "h": 60,
+      "s": 0.07,
+      "l": 0.05
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#1a1917",
+       "top": 418,
+       "hsl": {
+        "h": 40,
+        "s": 0.06,
+        "l": 0.1
+       }
+      },
+      {
+       "color": "#181714",
+       "top": 1112,
+       "hsl": {
+        "h": 45,
+        "s": 0.09,
+        "l": 0.09
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#8e8a83",
+       "share": 0.47
+      },
+      {
+       "color": "#f0ede6",
+       "share": 0.21
+      },
+      {
+       "color": "#b9b4ab",
+       "share": 0.14
+      },
+      {
+       "color": "#c8a452",
+       "share": 0.05
+      },
+      {
+       "color": "#a7a29a",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#5594ff",
+      "hsl": {
+       "h": 218,
+       "s": 1,
+       "l": 0.67
+      },
+      "fg": "#0f0f0d"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 2,
+     "radius": 4,
+     "height": 56,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to main content",
+      "Let's talk"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 4,
+     "boxRadius": 8,
+     "squareMedia": 0,
+     "roundedMedia": 4,
+     "mediaRadius": 8,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 1112
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.23
+     }
+    ],
+    "nav": {
+     "links": 4,
+     "fixed": true,
+     "height": 93,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "inter",
+     "inter tight"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 3323,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "section.intro.wrap",
+      "tag": "section",
+      "top": 93,
+      "height": 325,
+      "words": 12,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Engineer turned product designer, building for scr",
+       "size": 44,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 43,
+      "textLeft": 20,
+      "textRight": 43,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "a.senko-card.reveal",
+      "tag": "a",
+      "top": 418,
+      "height": 670,
+      "words": 42,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "SENKŌ",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 48,
+      "textRight": 48,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.case-grid",
+      "tag": "div",
+      "top": 1112,
+      "height": 1306,
+      "words": 57,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "Grief Companion",
+       "size": 24,
+       "tag": "h3"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 44,
+      "textRight": 51,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.also.wrap",
+      "tag": "section",
+      "top": 2498,
+      "height": 299,
+      "words": 23,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Also worked on",
+       "size": 13,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 54,
+      "textLeft": 20,
+      "textRight": 54,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.cta.wrap",
+      "tag": "section",
+      "top": 2797,
+      "height": 336,
+      "words": 6,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Let's build something.",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 148,
+      "textLeft": 20,
+      "textRight": 148,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 3165,
+      "height": 158,
+      "words": 7,
+      "media": 0,
+      "middle": 24,
+      "heading": null,
+      "left": 20,
+      "right": 84,
+      "textLeft": 20,
+      "textRight": 84,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Engineer turned product designer, building for screens and the physical world.",
+      "size": 44,
+      "top": 157,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 44,
+      "n": 8
+     },
+     {
+      "x": 20,
+      "n": 3
+     }
+    ],
+    "leftBlocks": 11,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 1440,
+   "message": "1 headline(s) wrap past two lines at 1440px: \"Engineer turned product designer, building for s\" → 4 lines (11 words, 96px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 36px or less."
+  },
+  {
+   "level": "WARN",
+   "id": "hero-words",
+   "width": 1440,
+   "message": "Hero headline is 11 words (\"Engineer turned product designer, building for screens and t\"). Gallery median is 5.",
+   "fix": "Say the one thing. Move the rest to the supporting line.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "palette-cream",
+   "width": 1440,
+   "message": "Yellow-cream background (text #f0ede6).",
+   "fix": "Use the drawn palette. If you want warmth, take a low-chroma stone or bone, not a yellow cream.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "font-not-dealt",
+   "width": 1440,
+   "message": "The sheet dealt Archivo and Archivo, but the page renders Inter, Inter Tight.",
+   "fix": "Load the dealt face (the link on the sheet) and put it first in font-family. A build that falls back to a default face lands on the default look."
+  },
+  {
+   "level": "WARN",
+   "id": "lopsided",
+   "width": 1440,
+   "message": "A section keeps its content on one side and leaves 713px of the width empty: \"Also worked on\".",
+   "fix": "Fill the other side with what the section has (its picture, a second column, the figure), or defend the void in one sentence."
+  },
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 768,
+   "message": "1 headline(s) wrap past two lines at 768px: \"Engineer turned product designer, building for s\" → 4 lines (11 words, 53.8px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 32px or less."
+  },
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 390,
+   "message": "1 headline(s) wrap past two lines at 390px: \"Engineer turned product designer, building for s\" → 5 lines (11 words, 44px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 24px or less."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/Users/brandonantezana/Desktop/PortfolioDesigns/.taste-skill/after/desktop-fold.jpg",
+   "pages": [
+    "/Users/brandonantezana/Desktop/PortfolioDesigns/.taste-skill/after/desktop-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/Users/brandonantezana/Desktop/PortfolioDesigns/.taste-skill/after/tablet-fold.jpg",
+   "pages": [
+    "/Users/brandonantezana/Desktop/PortfolioDesigns/.taste-skill/after/tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/Users/brandonantezana/Desktop/PortfolioDesigns/.taste-skill/after/mobile-fold.jpg",
+   "pages": [
+    "/Users/brandonantezana/Desktop/PortfolioDesigns/.taste-skill/after/mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}
