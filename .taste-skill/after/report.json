@@ -1,6 +1,6 @@
 {
  "url": "/Users/brandonantezana/Desktop/PortfolioDesigns/index.html",
- "at": "2026-10-23T15:12:01.755Z",
+ "at": "2026-10-23T18:52:05.893Z",
  "allow": [],
  "viewports": [
   {
@@ -15,9 +15,9 @@
     0.38
    ],
    "motion": {
-    "elements": 21,
-    "css": 0,
-    "transitions": 21,
+    "elements": 31,
+    "css": 11,
+    "transitions": 20,
     "scripted": 0,
     "videos": 0,
     "playingVideos": 0
@@ -287,12 +287,12 @@
      "families": [
       {
        "family": "Inter",
-       "share": 0.85,
+       "share": 0.86,
        "mono": false
       },
       {
        "family": "Inter Tight",
-       "share": 0.15,
+       "share": 0.14,
        "mono": false
       }
      ],
@@ -319,7 +319,7 @@
       "size": 96,
       "vw": 6.7,
       "font": "Inter Tight",
-      "text": "Engineer turned product designer, buildi"
+      "text": "Engineer"
      },
      "monoShare": 0,
      "monoProseShare": 0,
@@ -365,7 +365,7 @@
      "textColors": [
       {
        "color": "#8e8a83",
-       "share": 0.47
+       "share": 0.48
       },
       {
        "color": "#f0ede6",
@@ -471,11 +471,11 @@
       "tag": "section",
       "top": 72,
       "height": 556,
-      "words": 12,
+      "words": 11,
       "media": 0,
       "middle": 0,
       "heading": {
-       "text": "Engineer turned product designer, building for scr",
+       "text": "Engineer",
        "size": 96,
        "tag": "h1"
       },
@@ -594,23 +594,47 @@
     "edgeText": [],
     "edges": [
      {
-      "x": 807,
-      "n": 4
+      "x": 160,
+      "n": 5
      },
      {
-      "x": 160,
-      "n": 3
+      "x": 807,
+      "n": 4
      },
      {
       "x": 208,
       "n": 2
      },
      {
+      "x": 497,
+      "n": 2
+     },
+     {
       "x": 847,
       "n": 2
+     },
+     {
+      "x": 331,
+      "n": 1
+     },
+     {
+      "x": 481,
+      "n": 1
+     },
+     {
+      "x": 539,
+      "n": 1
+     },
+     {
+      "x": 627,
+      "n": 1
+     },
+     {
+      "x": 834,
+      "n": 1
      }
     ],
-    "leftBlocks": 11,
+    "leftBlocks": 20,
     "bodySize": 16,
     "stage": false,
     "explains": false,
@@ -638,9 +662,9 @@
     0.53
    ],
    "motion": {
-    "elements": 21,
-    "css": 0,
-    "transitions": 21,
+    "elements": 31,
+    "css": 11,
+    "transitions": 20,
     "scripted": 0,
     "videos": 0,
     "playingVideos": 0
@@ -910,12 +934,12 @@
      "families": [
       {
        "family": "Inter",
-       "share": 0.85,
+       "share": 0.86,
        "mono": false
       },
       {
        "family": "Inter Tight",
-       "share": 0.15,
+       "share": 0.14,
        "mono": false
       }
      ],
@@ -943,7 +967,7 @@
       "size": 53.8,
       "vw": 7,
       "font": "Inter Tight",
-      "text": "Engineer turned product designer, buildi"
+      "text": "Engineer"
      },
      "monoShare": 0,
      "monoProseShare": 0,
@@ -1016,7 +1040,7 @@
      "textColors": [
       {
        "color": "#8e8a83",
-       "share": 0.47
+       "share": 0.48
       },
       {
        "color": "#f0ede6",
@@ -1122,11 +1146,11 @@
       "tag": "section",
       "top": 72,
       "height": 326,
-      "words": 12,
+      "words": 11,
       "media": 0,
       "middle": 0,
       "heading": {
-       "text": "Engineer turned product designer, building for scr",
+       "text": "Engineer",
        "size": 54,
        "tag": "h1"
       },
@@ -1296,10 +1320,34 @@
      },
      {
       "x": 31,
-      "n": 3
+      "n": 5
+     },
+     {
+      "x": 210,
+      "n": 2
+     },
+     {
+      "x": 126,
+      "n": 1
+     },
+     {
+      "x": 221,
+      "n": 1
+     },
+     {
+      "x": 243,
+      "n": 1
+     },
+     {
+      "x": 292,
+      "n": 1
+     },
+     {
+      "x": 408,
+      "n": 1
      }
     ],
-    "leftBlocks": 10,
+    "leftBlocks": 19,
     "bodySize": 16,
     "stage": false,
     "explains": false,
@@ -1322,9 +1370,9 @@
     0.42
    ],
    "motion": {
-    "elements": 21,
-    "css": 0,
-    "transitions": 21,
+    "elements": 31,
+    "css": 11,
+    "transitions": 20,
     "scripted": 0,
     "videos": 0,
     "playingVideos": 0
@@ -1594,12 +1642,12 @@
      "families": [
       {
        "family": "Inter",
-       "share": 0.85,
+       "share": 0.86,
        "mono": false
       },
       {
        "family": "Inter Tight",
-       "share": 0.15,
+       "share": 0.14,
        "mono": false
       }
      ],
@@ -1628,7 +1676,7 @@
       "size": 44,
       "vw": 11.3,
       "font": "Inter Tight",
-      "text": "Engineer turned product designer, buildi"
+      "text": "Engineer"
      },
      "monoShare": 0,
      "monoProseShare": 0,
@@ -1674,7 +1722,7 @@
      "textColors": [
       {
        "color": "#8e8a83",
-       "share": 0.47
+       "share": 0.48
       },
       {
        "color": "#f0ede6",
@@ -1780,18 +1828,18 @@
       "tag": "section",
       "top": 93,
       "height": 325,
-      "words": 12,
+      "words": 11,
       "media": 0,
       "middle": 0,
       "heading": {
-       "text": "Engineer turned product designer, building for scr",
+       "text": "Engineer",
        "size": 44,
        "tag": "h1"
       },
       "left": 20,
-      "right": 43,
+      "right": 42,
       "textLeft": 20,
-      "textRight": 43,
+      "textRight": 42,
       "fullBleed": false,
       "footer": false,
       "hero": true,
@@ -1927,10 +1975,22 @@
      },
      {
       "x": 20,
-      "n": 3
+      "n": 6
+     },
+     {
+      "x": 174,
+      "n": 4
+     },
+     {
+      "x": 193,
+      "n": 1
+     },
+     {
+      "x": 255,
+      "n": 1
      }
     ],
-    "leftBlocks": 11,
+    "leftBlocks": 20,
     "bodySize": 16,
     "stage": false,
     "explains": false,
@@ -1992,6 +2052,13 @@
    "width": 1440,
    "message": "A section keeps its content on one side and leaves 713px of the width empty: \"Also worked on\".",
    "fix": "Fill the other side with what the section has (its picture, a second column, the figure), or defend the void in one sentence."
+  },
+  {
+   "level": "WARN",
+   "id": "ragged-edges",
+   "width": 1440,
+   "message": "Left-aligned text starts at 10 different lines (160px, 807px, 208px, 497px, 847px, 331px, 481px); the three most used hold only 55% of it.",
+   "fix": "Pick two or three anchor lines from the grid and start every heading and paragraph on one of them."
   },
   {
    "level": "FAIL",

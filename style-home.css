@@ -16,7 +16,7 @@
     text-wrap: balance;
 }
 
-.intro h1 span {
+.intro h1:not(.hero-split) span {
     color: var(--accent);
 }
 
@@ -50,7 +50,7 @@
 }
 
 .senko-card:hover {
-    transform: translateY(-3px);
+    transform: perspective(1100px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)) translateY(-3px);
 }
 
 .senko-media {
@@ -160,7 +160,7 @@
 }
 
 .case-card:hover {
-    transform: translateY(-3px);
+    transform: perspective(1100px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)) translateY(-3px);
 }
 
 .case-card:nth-child(even) {
@@ -371,4 +371,34 @@
     .case-title {
         font-size: 1.5rem;
     }
+}
+
+/* ---------- Hero word reveal ---------- */
+.hero-split .hw {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: bottom;
+    padding-bottom: 0.06em;
+    margin-bottom: -0.06em;
+}
+
+.hero-split .hw-i {
+    display: inline-block;
+    animation: hw-up 0.72s cubic-bezier(0.16, 1, 0.3, 1) both;
+    animation-delay: var(--d, 0s);
+}
+
+.hero-split .hw-a .hw-i {
+    color: var(--accent);
+}
+
+@keyframes hw-up {
+    from {
+        transform: translateY(110%);
+        opacity: 0;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .hero-split .hw-i { animation: none; }
 }
