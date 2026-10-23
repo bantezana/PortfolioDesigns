@@ -1,0 +1,578 @@
+{
+  ".claude/settings.json": {
+    "mtime": 1792766083.6272666,
+    "seen": 1792769988.652344,
+    "ast_hash": "6b8545468d47fa7defd9335d2709ae63",
+    "semantic_hash": ""
+  },
+  ".taste-skill/after/report.json": {
+    "mtime": 1792768339.042796,
+    "seen": 1792769988.652349,
+    "ast_hash": "4ba0bfcc67636b25171d18649c110ac4",
+    "semantic_hash": ""
+  },
+  ".taste-skill/before/report.json": {
+    "mtime": 1792766856.5718184,
+    "seen": 1792769988.652351,
+    "ast_hash": "6891d413660152debd1e5b563c8e8747",
+    "semantic_hash": ""
+  },
+  ".taste-skill/direction.json": {
+    "mtime": 1792767339.0702562,
+    "seen": 1792769988.652352,
+    "ast_hash": "abbf1e644b89d51997ae831b33198db6",
+    "semantic_hash": ""
+  },
+  "site.js": {
+    "mtime": 1792767512.2467287,
+    "seen": 1792769988.652353,
+    "ast_hash": "3f2888c07b9a9d63f6bd91ca5646edab",
+    "semantic_hash": ""
+  },
+  "CLAUDE.md": {
+    "mtime": 1792766083.627008,
+    "seen": 1792769988.652354,
+    "ast_hash": "67d88e9d0760c3ba54c75dfd9551c1c5",
+    "semantic_hash": ""
+  },
+  "TEST-IMAGES.html": {
+    "mtime": 1792762317.5027516,
+    "seen": 1792769988.652354,
+    "ast_hash": "56ab86f56e3f0a4d622a4ff840a02f79",
+    "semantic_hash": ""
+  },
+  "about.html": {
+    "mtime": 1792762317.5031412,
+    "seen": 1792769988.652355,
+    "ast_hash": "c7f0f6ce73fa780311b767e33aba83c1",
+    "semantic_hash": ""
+  },
+  "civic.html": {
+    "mtime": 1792762317.503416,
+    "seen": 1792769988.6523561,
+    "ast_hash": "7867c9193182cd83cb2b07cbd7cd2884",
+    "semantic_hash": ""
+  },
+  "contact.html": {
+    "mtime": 1792762317.503921,
+    "seen": 1792769988.652357,
+    "ast_hash": "48bd48567c54cb20af9302404a69c346",
+    "semantic_hash": ""
+  },
+  "grief-companion.html": {
+    "mtime": 1792762317.5044057,
+    "seen": 1792769988.652357,
+    "ast_hash": "2cbb1822f2b73ae911584a2dd168be13",
+    "semantic_hash": ""
+  },
+  "index.html": {
+    "mtime": 1792762317.5148444,
+    "seen": 1792769988.6523578,
+    "ast_hash": "2bb475d010faa0e7b32867e58d6b9d84",
+    "semantic_hash": ""
+  },
+  "senko.html": {
+    "mtime": 1792762317.515083,
+    "seen": 1792769988.652359,
+    "ast_hash": "f750c9b81e2fb02ddf23d722f7d0daf0",
+    "semantic_hash": ""
+  },
+  "sensory.html": {
+    "mtime": 1792762317.5156677,
+    "seen": 1792769988.65236,
+    "ast_hash": "f71293024df092002e1d1521b7fee795",
+    "semantic_hash": ""
+  },
+  ".taste-skill/after/desktop-fold.jpg": {
+    "mtime": 1792768324.2138753,
+    "seen": 1792769988.65236,
+    "ast_hash": "951c1bd8cea9bff47aff5aeb855cb96d",
+    "semantic_hash": ""
+  },
+  ".taste-skill/after/desktop-page-01.jpg": {
+    "mtime": 1792768326.9958673,
+    "seen": 1792769988.652361,
+    "ast_hash": "0ba1e1715de8c1e5cce36ab1b6544a0e",
+    "semantic_hash": ""
+  },
+  ".taste-skill/after/mobile-fold.jpg": {
+    "mtime": 1792768334.208768,
+    "seen": 1792769988.6523619,
+    "ast_hash": "c89e1c495763192310fff21c1d3f7504",
+    "semantic_hash": ""
+  },
+  ".taste-skill/after/mobile-page-01.jpg": {
+    "mtime": 1792768336.952329,
+    "seen": 1792769988.6523619,
+    "ast_hash": "e573fdd2f2eaa8907d091c247642101f",
+    "semantic_hash": ""
+  },
+  ".taste-skill/after/tablet-fold.jpg": {
+    "mtime": 1792768329.183075,
+    "seen": 1792769988.652363,
+    "ast_hash": "56d5fb252f33a8aba8e8660c32a684a5",
+    "semantic_hash": ""
+  },
+  ".taste-skill/after/tablet-page-01.jpg": {
+    "mtime": 1792768331.9856598,
+    "seen": 1792769988.652364,
+    "ast_hash": "7a7d913c8716f5f48b2c762b5b3d2fd0",
+    "semantic_hash": ""
+  },
+  ".taste-skill/before/desktop-fold.jpg": {
+    "mtime": 1792766843.3665695,
+    "seen": 1792769988.652364,
+    "ast_hash": "725e02b9db080295202ce33905bef228",
+    "semantic_hash": ""
+  },
+  ".taste-skill/before/desktop-page-01.jpg": {
+    "mtime": 1792766845.3418083,
+    "seen": 1792769988.652365,
+    "ast_hash": "c9a173a8391818fde0fe343df7bb49f1",
+    "semantic_hash": ""
+  },
+  ".taste-skill/before/mobile-fold.jpg": {
+    "mtime": 1792766851.7495086,
+    "seen": 1792769988.6523662,
+    "ast_hash": "6c9fda8404b7bb3a2a17f35203cab044",
+    "semantic_hash": ""
+  },
+  ".taste-skill/before/mobile-page-01.jpg": {
+    "mtime": 1792766854.4755652,
+    "seen": 1792769988.652367,
+    "ast_hash": "bcaec7b7c2167e5b7418cb6181a3bb38",
+    "semantic_hash": ""
+  },
+  ".taste-skill/before/tablet-fold.jpg": {
+    "mtime": 1792766847.5486944,
+    "seen": 1792769988.652367,
+    "ast_hash": "4b6ad0b77d9f144a728c4d6661af99ff",
+    "semantic_hash": ""
+  },
+  ".taste-skill/before/tablet-page-01.jpg": {
+    "mtime": 1792766849.5401406,
+    "seen": 1792769988.6523678,
+    "ast_hash": "abdb4af6f83ecc67f1303d60ca096132",
+    "semantic_hash": ""
+  },
+  "images/1763133127295_image.png": {
+    "mtime": 1783085036.9135935,
+    "seen": 1792769988.6523688,
+    "ast_hash": "46ce96f5a400240ec3328423947a8a7b",
+    "semantic_hash": ""
+  },
+  "images/Civic-Hero-pic.webp": {
+    "mtime": 1783091743.3707473,
+    "seen": 1792769988.6523688,
+    "ast_hash": "7d724779d4dab9548cf8f7867fc73601",
+    "semantic_hash": ""
+  },
+  "images/Civic-hero-v3.png": {
+    "mtime": 1786160522.9254668,
+    "seen": 1792769988.65237,
+    "ast_hash": "270122692682708f7e4398685acc3cee",
+    "semantic_hash": ""
+  },
+  "images/CivicMobilescreen.png": {
+    "mtime": 1783085036.9139998,
+    "seen": 1792769988.652371,
+    "ast_hash": "46ce96f5a400240ec3328423947a8a7b",
+    "semantic_hash": ""
+  },
+  "images/CivicMobilescreen3.png": {
+    "mtime": 1783085036.9149728,
+    "seen": 1792769988.652371,
+    "ast_hash": "814578862e3343ab0f8411da1b03968a",
+    "semantic_hash": ""
+  },
+  "images/CivicMobilescreen4.png": {
+    "mtime": 1783085036.9162877,
+    "seen": 1792769988.652372,
+    "ast_hash": "7cd969b13f3bda9828a5c189db1b5196",
+    "semantic_hash": ""
+  },
+  "images/CivicMobilescreen5.png": {
+    "mtime": 1783085036.918145,
+    "seen": 1792769988.652373,
+    "ast_hash": "df4c3301c27b8edf948ae650c60e439a",
+    "semantic_hash": ""
+  },
+  "images/CivicMobilescreen6.png": {
+    "mtime": 1783085036.919317,
+    "seen": 1792769988.652373,
+    "ast_hash": "eabc561bc88090c24255ab809a7d4411",
+    "semantic_hash": ""
+  },
+  "images/CivicMobilescreen7.png": {
+    "mtime": 1783085036.920093,
+    "seen": 1792769988.652374,
+    "ast_hash": "f031b2a3f5f3c0596915d3f155b76339",
+    "semantic_hash": ""
+  },
+  "images/Civicscreen5.png": {
+    "mtime": 1783085036.9236505,
+    "seen": 1792769988.652375,
+    "ast_hash": "4955e343c48daf558c73ee4d1a7bda8b",
+    "semantic_hash": ""
+  },
+  "images/Civicscreen6.png": {
+    "mtime": 1783085036.9308388,
+    "seen": 1792769988.652375,
+    "ast_hash": "72f61a3702a1930e301a23b21fe27b01",
+    "semantic_hash": ""
+  },
+  "images/Civicscreen7.png": {
+    "mtime": 1783085036.9322598,
+    "seen": 1792769988.6523762,
+    "ast_hash": "7174e4111526fe6dbebe3d4530b2be69",
+    "semantic_hash": ""
+  },
+  "images/Civicscreen8.png": {
+    "mtime": 1783085036.9335752,
+    "seen": 1792769988.6523771,
+    "ast_hash": "ee1f18685d613bd5460f3772fb94e69b",
+    "semantic_hash": ""
+  },
+  "images/Civicscreen9.png": {
+    "mtime": 1783085036.9348989,
+    "seen": 1792769988.6523771,
+    "ast_hash": "279fe4e0b30190a280be1716a24f4d6a",
+    "semantic_hash": ""
+  },
+  "images/Companionscreen1.png": {
+    "mtime": 1783085036.93553,
+    "seen": 1792769988.652378,
+    "ast_hash": "a2e54237bc67ca84ef15634d8a8ef27f",
+    "semantic_hash": ""
+  },
+  "images/Companionscreen2.png": {
+    "mtime": 1783085036.936095,
+    "seen": 1792769988.6523788,
+    "ast_hash": "d052e352cdcca869e2264885bbc19665",
+    "semantic_hash": ""
+  },
+  "images/Companionscreen3.png": {
+    "mtime": 1783085036.937874,
+    "seen": 1792769988.65238,
+    "ast_hash": "93142e4fd57ac0b18e65fbf12e6a6cad",
+    "semantic_hash": ""
+  },
+  "images/Companionscreen4.png": {
+    "mtime": 1783085036.9384189,
+    "seen": 1792769988.652381,
+    "ast_hash": "2445306a896b4b5edfa671ea8253e04d",
+    "semantic_hash": ""
+  },
+  "images/Companionscreen5.png": {
+    "mtime": 1783085036.9393978,
+    "seen": 1792769988.652381,
+    "ast_hash": "fe9377fe1e3521f25d02ee370a6ebb4f",
+    "semantic_hash": ""
+  },
+  "images/Companionscreen6.png": {
+    "mtime": 1783085036.9401333,
+    "seen": 1792769988.652382,
+    "ast_hash": "f82361e23b9ce5572efc2ae7c9118add",
+    "semantic_hash": ""
+  },
+  "images/Companionscreen7.png": {
+    "mtime": 1783085036.940867,
+    "seen": 1792769988.652383,
+    "ast_hash": "9aa46a78542f3bf459b95e4b2addf659",
+    "semantic_hash": ""
+  },
+  "images/Companionscreen8.png": {
+    "mtime": 1783085036.9413908,
+    "seen": 1792769988.652383,
+    "ast_hash": "4d2e897b8f147171305ab800081257d2",
+    "semantic_hash": ""
+  },
+  "images/Companionscreen9.png": {
+    "mtime": 1783085036.941966,
+    "seen": 1792769988.652384,
+    "ast_hash": "6b2bf104f51f8b601dcd188ac7936710",
+    "semantic_hash": ""
+  },
+  "images/GriefCompanion-hero-pic.webp": {
+    "mtime": 1783091743.357988,
+    "seen": 1792769988.652385,
+    "ast_hash": "9fb7cd47cf8b9e424ff6f00f6fdd380a",
+    "semantic_hash": ""
+  },
+  "images/GriefCompanion-hero-v3.png": {
+    "mtime": 1786160522.9156249,
+    "seen": 1792769988.652386,
+    "ast_hash": "c38c14bb4a12f5313dd15d841bbdc5ba",
+    "semantic_hash": ""
+  },
+  "images/ProfilePicture.jpg": {
+    "mtime": 1792762317.5047557,
+    "seen": 1792769988.652386,
+    "ast_hash": "e43fb8cec5edecf4e0bfd9a6e0e71a41",
+    "semantic_hash": ""
+  },
+  "images/Sensory-hero-v3.png": {
+    "mtime": 1786160522.9338636,
+    "seen": 1792769988.6523871,
+    "ast_hash": "1688f021206fe525fb033e94372d7854",
+    "semantic_hash": ""
+  },
+  "images/Sensoryscreen1.png": {
+    "mtime": 1783085036.942368,
+    "seen": 1792769988.652388,
+    "ast_hash": "36303cb59b1b4997d0174c7670ad246e",
+    "semantic_hash": ""
+  },
+  "images/Sensoryscreen2.png": {
+    "mtime": 1783085036.942774,
+    "seen": 1792769988.652388,
+    "ast_hash": "335114476e518b6aac9fefe359c2c04b",
+    "semantic_hash": ""
+  },
+  "images/Sensoryscreen3.png": {
+    "mtime": 1783085036.943381,
+    "seen": 1792769988.652389,
+    "ast_hash": "10982d37a0c424245716c50291d3aead",
+    "semantic_hash": ""
+  },
+  "images/Sensoryscreen4.png": {
+    "mtime": 1783085036.9439485,
+    "seen": 1792769988.65239,
+    "ast_hash": "2a40d78cb0ef7c840ce0ff3f4a62f3fb",
+    "semantic_hash": ""
+  },
+  "images/Sensoryscreen5.png": {
+    "mtime": 1783085036.9448252,
+    "seen": 1792769988.65239,
+    "ast_hash": "6365f1de66c2c263fe13f5700e7244bc",
+    "semantic_hash": ""
+  },
+  "images/Sensoryscreen6.png": {
+    "mtime": 1783085036.9453375,
+    "seen": 1792769988.652391,
+    "ast_hash": "680cbca81f4780783bf3f4aaa9232e06",
+    "semantic_hash": ""
+  },
+  "images/Sensoryscreen7.png": {
+    "mtime": 1783085036.9457092,
+    "seen": 1792769988.652392,
+    "ast_hash": "684147cd382024af75763a205d9ce1d2",
+    "semantic_hash": ""
+  },
+  "images/Sensoryscreen8.png": {
+    "mtime": 1783085036.9463909,
+    "seen": 1792769988.652392,
+    "ast_hash": "58ec6a20532543af5d66ee5c7c54dd3b",
+    "semantic_hash": ""
+  },
+  "images/Sensoryscreen9.png": {
+    "mtime": 1783085036.9472086,
+    "seen": 1792769988.6523929,
+    "ast_hash": "63e16dce5cf9c4172d9c1076fb7b2395",
+    "semantic_hash": ""
+  },
+  "images/griefcompanion-wf-activity-detail.png": {
+    "mtime": 1786160816.3949049,
+    "seen": 1792769988.652394,
+    "ast_hash": "86d9199f41054a55ba1d6993c7549399",
+    "semantic_hash": ""
+  },
+  "images/griefcompanion-wf-chat.png": {
+    "mtime": 1786160816.3959231,
+    "seen": 1792769988.652394,
+    "ast_hash": "86368632638069fc6a699d610d93d76c",
+    "semantic_hash": ""
+  },
+  "images/griefcompanion-wf-dashboard.png": {
+    "mtime": 1786160816.3964877,
+    "seen": 1792769988.652395,
+    "ast_hash": "82eb36937411795c73c3c96c2610388c",
+    "semantic_hash": ""
+  },
+  "images/griefcompanion-wf-journaling.png": {
+    "mtime": 1786160816.3971245,
+    "seen": 1792769988.652396,
+    "ast_hash": "3587621a7fcc8f3954c2e6c3099c0bae",
+    "semantic_hash": ""
+  },
+  "images/griefcompanion-wf-memoryvault.png": {
+    "mtime": 1786160816.397752,
+    "seen": 1792769988.6523972,
+    "ast_hash": "70b813e4c40a7067e9d3d1e0756387ee",
+    "semantic_hash": ""
+  },
+  "images/griefcompanion-wf-suggested-activities.png": {
+    "mtime": 1786160816.3982174,
+    "seen": 1792769988.6523972,
+    "ast_hash": "56406223477b7e22cf66f32022c2117e",
+    "semantic_hash": ""
+  },
+  "images/griefcompanion-wf-welcome.png": {
+    "mtime": 1786160816.398776,
+    "seen": 1792769988.652398,
+    "ast_hash": "6a9b3c0144d135f2a3ecf1bf186011b0",
+    "semantic_hash": ""
+  },
+  "images/screen2.png": {
+    "mtime": 1783085036.9479597,
+    "seen": 1792769988.652399,
+    "ast_hash": "814578862e3343ab0f8411da1b03968a",
+    "semantic_hash": ""
+  },
+  "images/screen3.png": {
+    "mtime": 1783085036.9486785,
+    "seen": 1792769988.652399,
+    "ast_hash": "814578862e3343ab0f8411da1b03968a",
+    "semantic_hash": ""
+  },
+  "images/screen5.png": {
+    "mtime": 1783085036.949431,
+    "seen": 1792769988.6524,
+    "ast_hash": "c22fe479ef6fd82e5a54b243b53b6d23",
+    "semantic_hash": ""
+  },
+  "images/screen6.png": {
+    "mtime": 1783085036.954657,
+    "seen": 1792769988.652401,
+    "ast_hash": "72f61a3702a1930e301a23b21fe27b01",
+    "semantic_hash": ""
+  },
+  "images/sensory-hero-pic.jpg": {
+    "mtime": 1783091743.363899,
+    "seen": 1792769988.652401,
+    "ast_hash": "96f60ad92b1a23be15e3921c9683b8ea",
+    "semantic_hash": ""
+  },
+  "images/work/bibleclock-bookshelf.jpg": {
+    "mtime": 1792762317.5056877,
+    "seen": 1792769988.652402,
+    "ast_hash": "c8a37da782ccbfb4b8200c04ea1555d5",
+    "semantic_hash": ""
+  },
+  "images/work/bibleclock-logo.png": {
+    "mtime": 1792762317.5059798,
+    "seen": 1792769988.6524029,
+    "ast_hash": "164596b77a026d518f48244694f605a6",
+    "semantic_hash": ""
+  },
+  "images/work/bibleclock-shelf.jpg": {
+    "mtime": 1792762317.506309,
+    "seen": 1792769988.6524029,
+    "ast_hash": "5b50cf73f7723a593734024f1c34875c",
+    "semantic_hash": ""
+  },
+  "images/work/fastforge-logo.png": {
+    "mtime": 1792762317.5065207,
+    "seen": 1792769988.652404,
+    "ast_hash": "99f345853c5504434c607c645a95c996",
+    "semantic_hash": ""
+  },
+  "images/work/fastforge-site.jpg": {
+    "mtime": 1792762317.5070639,
+    "seen": 1792769988.652405,
+    "ast_hash": "260d84f99102f56f9349cafcd604c47a",
+    "semantic_hash": ""
+  },
+  "images/work/senko-architect.jpg": {
+    "mtime": 1792762317.5075343,
+    "seen": 1792769988.652406,
+    "ast_hash": "921da20c18bb84ec5a0a8e5b0375f951",
+    "semantic_hash": ""
+  },
+  "images/work/senko-black.jpg": {
+    "mtime": 1792762317.5078619,
+    "seen": 1792769988.652406,
+    "ast_hash": "bc8460ab2687fce51cc4588eaf838e9e",
+    "semantic_hash": ""
+  },
+  "images/work/senko-colorways.jpg": {
+    "mtime": 1792762317.5081463,
+    "seen": 1792769988.652407,
+    "ast_hash": "fbb368b97a8bf8b4d895adc3950c6709",
+    "semantic_hash": ""
+  },
+  "images/work/senko-detail1.jpg": {
+    "mtime": 1792762317.5084193,
+    "seen": 1792769988.6524081,
+    "ast_hash": "e2ffc3efcfcd9193adf539d66e10d5ee",
+    "semantic_hash": ""
+  },
+  "images/work/senko-detail2.jpg": {
+    "mtime": 1792762317.5090196,
+    "seen": 1792769988.6524081,
+    "ast_hash": "aa17579c68977cc6bce88979c20da98c",
+    "semantic_hash": ""
+  },
+  "images/work/senko-detail3.jpg": {
+    "mtime": 1792762317.5092585,
+    "seen": 1792769988.652409,
+    "ast_hash": "5b967c67dff87a02bc464938eb6d6b3f",
+    "semantic_hash": ""
+  },
+  "images/work/senko-hero.jpg": {
+    "mtime": 1792762317.5097744,
+    "seen": 1792769988.65241,
+    "ast_hash": "994c8fc6865cccd7a25eea1e85ffe466",
+    "semantic_hash": ""
+  },
+  "images/work/senko-navy.jpg": {
+    "mtime": 1792762317.51031,
+    "seen": 1792769988.652411,
+    "ast_hash": "f2c654e72e12cc26335c4c9fe7cfe6f1",
+    "semantic_hash": ""
+  },
+  "images/work/senko-site.jpg": {
+    "mtime": 1792762317.5107102,
+    "seen": 1792769988.652412,
+    "ast_hash": "2eeb05220cfa0bc3e0a736f9d3e10fa0",
+    "semantic_hash": ""
+  },
+  "images/work/senko-use.jpg": {
+    "mtime": 1792762317.5111663,
+    "seen": 1792769988.652412,
+    "ast_hash": "498fa85dab5e330ba56d044f56c71152",
+    "semantic_hash": ""
+  },
+  "images/work/senko-use2.jpg": {
+    "mtime": 1792762317.5119035,
+    "seen": 1792769988.652413,
+    "ast_hash": "2d744c422708b8247ffd91270f36dc45",
+    "semantic_hash": ""
+  },
+  "images/work/senko-use3.jpg": {
+    "mtime": 1792762317.5123055,
+    "seen": 1792769988.6524138,
+    "ast_hash": "7de2b1717c488999a89002b08c32aadf",
+    "semantic_hash": ""
+  },
+  "images/work/senko-white.jpg": {
+    "mtime": 1792762317.5126593,
+    "seen": 1792769988.6524138,
+    "ast_hash": "f6fbe3263c7f48b9ffaa8ef6885f3583",
+    "semantic_hash": ""
+  },
+  "images/work/terrix-hero.jpg": {
+    "mtime": 1792762317.5132859,
+    "seen": 1792769988.652415,
+    "ast_hash": "0b7e9b093ae780c2c14efce07827060a",
+    "semantic_hash": ""
+  },
+  "images/work/terrix-living.jpg": {
+    "mtime": 1792762317.5137813,
+    "seen": 1792769988.652416,
+    "ast_hash": "72b4b7d1357759a732f312e601b79b90",
+    "semantic_hash": ""
+  },
+  "images/work/terrix-logo.svg": {
+    "mtime": 1792762317.5139472,
+    "seen": 1792769988.652416,
+    "ast_hash": "f32887c8ce6785be4de15840178a0f41",
+    "semantic_hash": ""
+  },
+  "images/work/tpz-logo.png": {
+    "mtime": 1792762317.5141823,
+    "seen": 1792769988.652417,
+    "ast_hash": "c75a34c87eb9f58ac94b509e03c9ec81",
+    "semantic_hash": ""
+  }
+}
